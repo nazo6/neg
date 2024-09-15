@@ -367,7 +367,7 @@
 		(path "/60ca55ca-c0c9-439e-b3ce-223039ad0f9f")
 		(sheetname "ルート")
 		(sheetfile "ball_breakout.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_circle
 			(center -6.575 -5.34)
 			(end -6.375 -5.34)
