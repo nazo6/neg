@@ -1,0 +1,88 @@
+(footprint "M2_SPACER"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "MT**"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "aca7a9c8-cf29-4449-b98d-83beedd4d900")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "M2_SPACER"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "196fb8f6-a9c4-48c0-9437-e2ca9f1bf9a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "648988bb-ac45-48a3-9369-482c3c715ce9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ea8818f-199f-4dc4-9773-be46980cb822")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f187866d-9737-4676-8bcc-74e10ecb129a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "39efa750-f78e-459c-b47c-b2023155552c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.05 3.05)
+		(drill 3.053)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "eb84dd6e-daac-4291-ad42-970646d66191")
+	)
+)

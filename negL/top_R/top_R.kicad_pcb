@@ -1,0 +1,6114 @@
+(kicad_pcb
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(31 "B.Cu" signal)
+		(32 "B.Adhes" user "B.Adhesive")
+		(33 "F.Adhes" user "F.Adhesive")
+		(34 "B.Paste" user)
+		(35 "F.Paste" user)
+		(36 "B.SilkS" user "B.Silkscreen")
+		(37 "F.SilkS" user "F.Silkscreen")
+		(38 "B.Mask" user)
+		(39 "F.Mask" user)
+		(40 "Dwgs.User" user "User.Drawings")
+		(41 "Cmts.User" user "User.Comments")
+		(42 "Eco1.User" user "User.Eco1")
+		(43 "Eco2.User" user "User.Eco2")
+		(44 "Edge.Cuts" user)
+		(45 "Margin" user)
+		(46 "B.CrtYd" user "B.Courtyard")
+		(47 "F.CrtYd" user "F.Courtyard")
+		(48 "B.Fab" user)
+		(49 "F.Fab" user)
+		(50 "User.1" user)
+		(51 "User.2" user)
+		(52 "User.3" user)
+		(53 "User.4" user)
+		(54 "User.5" user)
+		(55 "User.6" user)
+		(56 "User.7" user)
+		(57 "User.8" user)
+		(58 "User.9" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(pcbplotparams
+			(layerselection 0x00010fc_ffffffff)
+			(plot_on_all_layers_selection 0x0000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(viasonmask no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plotreference yes)
+			(plotvalue yes)
+			(plotfptext yes)
+			(plotinvisibletext no)
+			(sketchpadsonfab no)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(net 0 "")
+	(footprint "neg_footprints:M2_Top"
+		(layer "F.Cu")
+		(uuid "2569735c-ad99-4ced-81bd-ffacb56dc211")
+		(at 205.978125 65.484375)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "MT10"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "de3c5a62-5508-4038-8fef-28d438abeaf7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "M2_Top"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "66524df5-307f-4aa8-8af2-004aa3629aee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "neg_footprints:M2_Top"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "feeb9ac3-bd48-46c6-a690-0bd5870fabf9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8aa6736-48ac-47ee-ab4c-e44e00000aa0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1279c789-4196-4b9f-8329-dbcc8a9aaeca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "484daa4e-1e04-4a25-b44b-bcd3b2dfcf28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 2.2)
+			(layers "F.Cu" "F.Mask")
+			(uuid "baa3683e-418e-471f-a772-adb2d88f7a7b")
+		)
+	)
+	(footprint "neg_footprints:M2_Top"
+		(layer "F.Cu")
+		(uuid "2f662057-1109-424c-b16e-3523f7458a5a")
+		(at 167.878125 98.821875)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "MT9"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b26214c8-235a-4ea1-a6ad-ae255fbbdedc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "M2_Top"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "f4b6f2d2-0c03-4e2f-8187-d2f7aabf67aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "neg_footprints:M2_Top"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "508959f6-3738-4dd3-9688-ab695407648d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c3eb3e2-3728-49ba-a5ed-fe2f9f5aab56")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2d4827c-2202-4c8e-857c-c4a2e98660b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "1bfe0dfb-1eee-46c1-928f-47d188160043")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 2.2)
+			(layers "F.Cu" "F.Mask")
+			(uuid "0014f5ff-c961-4188-b33d-f5a378b72d86")
+		)
+	)
+	(footprint "neg_footprints:M2_Top"
+		(layer "F.Cu")
+		(uuid "8e4a1c49-cd25-4a22-85c2-33ace3259980")
+		(at 129.778125 60.721875)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "MT6"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5ac76845-273b-41d8-81a3-c5273b3d4af9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "M2_Top"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "adfb7876-f3c8-4dcb-bda5-b00b10b68425")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "neg_footprints:M2_Top"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bce4794-fd78-4137-8a27-b705b2ee2a8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04541dfe-ef2b-4b3a-9188-9375d8c65055")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac3c4680-a71d-4a1c-8942-65ebcadbb191")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "596965fd-1172-45c8-a6f8-711ac6305450")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 2.2)
+			(layers "F.Cu" "F.Mask")
+			(uuid "8b733272-a633-4813-bbdc-d763e005d1e3")
+		)
+	)
+	(footprint "neg_footprints:M2_Top"
+		(layer "F.Cu")
+		(uuid "ad48dc33-5f1a-49c9-90b9-1f3ad1e0287f")
+		(at 148.408308 138.1125)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "MT5"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2e2384b7-a8a6-4e16-9141-d5f8a7f5e3d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "M2_Top"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "bc62ddf0-327a-45b7-ba44-cb5220f8b400")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "neg_footprints:M2_Top"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a58ff083-1e40-47cd-91da-4225615bd91c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "000ee73d-31dd-4022-9241-b48481380a49")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "180a1618-9bec-4229-87e0-121899b52d7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "4613c7e0-9301-49ea-8af8-d9d4375f95ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 2.2)
+			(layers "F.Cu" "F.Mask")
+			(uuid "cd8e477b-3964-4ff1-aabf-f9736d74b836")
+		)
+	)
+	(footprint "neg_footprints:M2_Top"
+		(layer "F.Cu")
+		(uuid "cc35d259-da96-44b3-99fc-b077c928cb82")
+		(at 129.778125 98.821875)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "MT7"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9fa8ce58-acc4-41f5-91ec-9242ae4b781a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "M2_Top"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "5caa8d7a-0fa1-4cd7-b8f6-8acb4e645cfd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "neg_footprints:M2_Top"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0dd4c0ac-6ce1-4b29-9104-a8c2b0258748")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d21c01a9-839e-49de-80e6-7cb7821bf32b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5fa74658-0f09-4b22-93c0-2f266b166017")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f5c59493-7dac-4444-ab34-ebac28d19ce4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 2.2)
+			(layers "F.Cu" "F.Mask")
+			(uuid "64a7e664-5fe6-499f-bfbc-c1881b79565a")
+		)
+	)
+	(footprint "neg_footprints:M2_Top"
+		(layer "F.Cu")
+		(uuid "d0092ecc-27f8-4688-8a92-2e556a8f402b")
+		(at 123.405183 128.5875)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "MT4"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c76562b9-ce03-4bb9-a43c-a1dceef9dc89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "M2_Top"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "181fe47a-0fb0-4588-bff5-384d7b799111")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "neg_footprints:M2_Top"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6178755f-1519-4fc1-ad60-698ca629f567")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3207426-7a7b-4317-8290-6088915b8a19")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e82cb5b-1ce9-4d44-86a7-79ee3cf78244")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c9c13424-26fb-4541-a6df-8b18fd271d60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 2.2)
+			(layers "F.Cu" "F.Mask")
+			(uuid "83138502-f2b7-4785-aebf-6d51d8760ad5")
+		)
+	)
+	(footprint "neg_footprints:M2_Top"
+		(layer "F.Cu")
+		(uuid "e67c1db8-ed99-4063-a228-d6c04cae79ad")
+		(at 205.978125 122.634375)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "MT11"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "daa1fe0c-ddc9-4048-9565-dffda5edcf6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "M2_Top"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "f19829e7-0b3e-4779-bf33-fef1cd364649")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "neg_footprints:M2_Top"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fc89067-6edd-4026-aa56-70ecfeb6569d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "695eb431-85c9-4f23-a87e-4aba55bd22ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1b582ca-02a1-4a69-8f4f-c1998efaa9af")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "14fb6f0e-e320-4413-b5f0-10845da15c4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 2.2)
+			(layers "F.Cu" "F.Mask")
+			(uuid "7df4d39c-0770-40c4-8622-a48125153bfd")
+		)
+	)
+	(footprint "neg_footprints:M2_Top"
+		(layer "F.Cu")
+		(uuid "eb5f8243-f4ed-4638-9ffd-9a8172e1b552")
+		(at 167.878125 60.721875)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "MT8"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2cb7cc44-ac03-4c46-82b5-a804eab4bfb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "M2_Top"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "2930ca78-ee97-4f51-a5f9-ea582f2704af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "neg_footprints:M2_Top"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e06c904-0610-4ef0-a494-5ea4cbb0a559")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9fddf17-4844-42ef-adac-e396e8276a6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4359ab88-65eb-497a-a064-c0f3e2852a83")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b21ea3fa-4b77-4071-9f78-e105ba76e87f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 2.2)
+			(layers "F.Cu" "F.Mask")
+			(uuid "9d4046ca-d2e6-40ba-9c8c-a15bd8a40670")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "1e7602b0-d4b3-4b8d-8a8f-ba984c327611")
+		(at 120.253125 89.296875 180)
+		(property "Reference" "MX13"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "65604cc2-7b4d-406b-86f5-2c40d61c53f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "1929880b-1d37-47ae-811d-7f29cf035190")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "db12be2e-01f7-44bd-a7fa-c65a6bb4e3a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8b03e188-df23-42c8-8a6e-2ae1060bb6e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2c6e10a1-5e9e-4268-937e-cfaa58316e70")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "b77fd8a9-c219-486d-99e8-fb45b6e5740c")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e7faac5e-2ce2-4d5c-83fa-d503d396c19f")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d93a4f8c-57ff-4386-a9e1-c222d8e6c663")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0194b2d5-186c-4d4a-8202-a16379558723")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "43d0d0be-65ba-4d51-a372-ceaa9916e947")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f1b33f30-a29c-4feb-97d0-1357e4d54e8c")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6afed678-f27b-4161-a92d-2d919402c36c")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cb06fc38-f14b-41fb-9e2a-7e8b45eb8617")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1b37dfff-e787-4cd8-8819-958ef58593f8")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "1f9bf9ef-ea6f-45bf-90f2-8e439ed8b2a9")
+		(at 120.253125 108.346875 180)
+		(property "Reference" "MX20"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "17a83dd6-61af-4f0a-938b-db7867e284c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "4e48082a-5cd5-43ba-8cc2-ae18d8efdb09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "da086c96-91c6-4f91-8092-f9bc0699b4e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "22898da9-fd0c-45d1-a026-6646fe57ca98")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6c3f5f5c-6491-472b-b9f0-5ec312638a96")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "57f7fa90-f15f-4f34-8dc6-3191729732b0")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "18e27a74-1fcf-4349-b942-3c50acdc9043")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c5998ac1-9fbc-4168-9237-883942dcf8b0")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bc3512da-5e93-48fe-821b-6b71ccc3a351")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "77cc5033-38bb-4a2f-96a8-96e92c0826bc")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "81b76a11-c8c6-42c6-af81-c6710c2a3691")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "48226fe3-9bbb-462a-9b41-634f0cde584a")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2044a02e-b00d-4568-a516-bce772f40aef")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "060c7b0c-1c9c-4c44-a719-e2f294bb3e8f")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "24721722-65ca-4f99-9ac2-5370c5ea6253")
+		(at 120.253125 70.246875 180)
+		(property "Reference" "MX7"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6483ef57-0206-4a12-85a7-6dd4dd5d8287")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "1102edd7-e057-4e6e-a576-530abb488186")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5b0d4cfe-a868-4820-b5f8-e82b30901cd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3780c3bb-b429-4913-ac86-23a70e2f5ba9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8c30d855-96e1-4d34-94d3-b6e889fd72bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "df0696d0-e744-4b44-955a-4d57b1bede9e")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5959fc69-cb1b-47f6-bf53-445187eda576")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2632b0f9-b54c-40c6-aaf1-eeafff6dcae2")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c9598605-bfe2-4b6a-8f31-574dac33ebe7")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b7983a63-63ee-4b60-a711-ee3d6ba4a897")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "05956f9c-ecc6-4091-8bf7-722c353edd46")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "16e58b3d-d3f0-477f-80f5-9775d70a161d")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "db55c2bd-77f5-4622-8d1d-4daaa32b9c69")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c499f915-dfe3-43e7-9c97-ffb0cc8ba216")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "34f7a278-2efc-4626-bc5e-45b254c133e8")
+		(at 177.403125 89.296875 180)
+		(property "Reference" "MX16"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "55903bc7-5522-4c1e-af6b-3078fdeeb9f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "fc3ca655-0d68-42ad-ad1d-e4ec30ca1f08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f58198f5-eda6-4f0c-9ad4-013ded69952a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7d6e77b1-c521-477d-b2de-6b9f4fb57659")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f571cd79-25fe-49b2-aef2-621b046c6506")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "77fcd93d-3ff4-4492-ae33-9ea5ef2094bc")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "daced9a5-d748-460a-a689-1857d4a74298")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c9db9bc0-9696-40ac-8f22-23fa3008462e")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "37a2df39-6169-424d-9fad-f64ab2652a4c")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7d3461d5-24cd-4acd-aa14-dbd2727c8b5e")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9617a420-2e66-42fc-ae25-99ca05469bc6")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9d3af155-399e-499e-8d65-40986a616818")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ba8b765c-2133-4fff-9e3e-489aa592dbc6")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "533dacf3-9796-4228-92b8-608702546bcd")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "40d03f1d-4b68-426c-84e3-a217458ddbc9")
+		(at 137.452128 136.513317 -165)
+		(property "Reference" "CH2"
+			(at 0 0.5 15)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ef39edda-8352-42e3-8de5-b5c76aacee0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "choc_v1_SW_HS"
+			(at 0 -1 15)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "cd295f70-ae54-4e23-9bdc-14caedd4239c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 15)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7a7d6be8-b9b7-4a89-9739-83b53cc697ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 15)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5534dc38-3f90-4e1c-91c2-b2965b2b9598")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 15)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c16f6cd9-3e7b-4180-a908-63a67307d15d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_poly
+			(pts
+				(xy -9.525 9.525) (xy 9.525 9.525) (xy 9.525 -9.525) (xy -9.525 -9.525)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "58d57877-8c92-408a-95e2-5063aa4f32fb")
+		)
+		(fp_line
+			(start 7 6.500002)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "977be725-d5f7-498c-b577-4ab20aac6bf9")
+		)
+		(fp_line
+			(start 6.500002 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "32327184-b117-49b2-bb06-30a0f1a26135")
+		)
+		(fp_line
+			(start -6.500002 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ff8cd89e-5b15-43d8-ab63-b4c0093ef0af")
+		)
+		(fp_line
+			(start -7 -6.500002)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b4a88075-d90f-4625-91af-589e4f0d7cb9")
+		)
+		(fp_arc
+			(start 7 6.500002)
+			(mid 6.853553 6.853554)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ed18d218-9b66-4051-9339-99705bb7531e")
+		)
+		(fp_arc
+			(start 6.500002 -7)
+			(mid 6.853554 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "fb22ffbb-637c-4a85-8490-56f3a2b6dddc")
+		)
+		(fp_arc
+			(start -6.500002 7)
+			(mid -6.853553 6.853552)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3899953f-6d99-4488-9c96-07a6135d32d0")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.85079 -6.852437)
+			(end -6.497237 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d3a18808-82d4-49a2-b59e-5dead5854897")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "4946552b-2ce2-44bc-98d6-a5c5d9f5512f")
+		(at 177.403125 108.346875 180)
+		(property "Reference" "MX23"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f9eb859e-3094-4582-b8d6-81df934510bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "15692262-3290-4b5c-84f3-5da56296d0dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "db7bf5da-b72d-4eee-a52b-8c5aa0fe600c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "04a34db4-e0dc-4f77-be99-4df6d53d139d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b2d6814c-51b4-49cb-b8df-40e0181ea5f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "eceb996b-96b9-4835-bd64-b39e0e282c3a")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7701b79f-8ba6-47a0-b90f-19abfabc8b2a")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "aeb4674c-938f-4bbc-a9a2-4542a8cc21e6")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5f88ffe5-b824-49d4-9d92-887e14134a91")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c42f829f-5039-4577-a49a-ab32237d0674")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "17ea3138-7687-4b09-be04-8d6903dffacb")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d9fca521-1d00-4b68-a081-6b4ab39a30da")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f1daffa7-bcd5-4a87-808c-6d4727735c25")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "27d55e9a-d6d2-4c76-821a-46b70a2657de")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "5587e8df-732a-4226-bffb-eea5910710c7")
+		(at 158.353125 51.196875 180)
+		(property "Reference" "MX3"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c16dc9a8-30c0-4ec7-be33-b87801e3a704")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "7c3e67e4-5dc8-4ff4-81a8-796ddfdb5b4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "29df59b1-1294-4e60-b446-b6ccf563056a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "76ef93b4-e9aa-42fc-9515-50546fb9accf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6b060771-3129-4dec-9fe9-fbc01c5b0f56")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "f1c821e2-eb81-460e-9d84-8c36991d3139")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c331bb92-f9f2-4180-b6df-a5859be8f5c2")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e0c3363b-6982-4761-9d24-f967f266e23c")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8081d67b-0549-494e-9027-031d3f7ce378")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "22e3053a-b1d7-479d-97b2-6f8369cacb7d")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "930b3497-981f-495f-ae41-258ec0d9db21")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "14471d3c-b101-4d09-8c36-1a94336ce330")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8d87ce57-f506-4c94-ae4f-70114ab84318")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0beff74d-d61b-44d4-9ffc-d1fba4d3148a")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "66057d04-a6ec-4898-9e44-10ee6af673ad")
+		(at 139.303125 70.246875 180)
+		(property "Reference" "MX8"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d46d0ed0-96ec-4761-a655-8c6f231d45f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "60fdf2f2-5731-4d16-a7fd-e6611167edab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6574c815-9afa-47f1-aff5-3f56c611db7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "28fca3fd-84a2-42a1-a25e-008a26f2bbca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ccb7f4e5-8844-448d-a351-6929b0e552d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "a5083320-aea6-4b41-acf4-2d49ca058a59")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6230b6a0-612c-41af-98e7-cdef2ca76861")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "68d08246-7eae-4208-b60e-cb412d4a1ad7")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bc630340-d971-49f1-b96c-de9829bb989b")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b2311af3-1d44-42f4-b02a-a40a119b387f")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6cfdce90-5428-4a36-8a92-cea19d73853c")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d9a5529c-2c9f-4216-83bd-370ad5e408c4")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9da9a752-3d0e-446d-848a-65c5b3b67729")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "78bfdd68-91ef-4dcf-9f86-322903764aed")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "789caf22-82d6-40a8-922d-747555ab99de")
+		(at 196.453125 94.059375 180)
+		(property "Reference" "MX17"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "18690101-cde6-45ff-8324-c6ba365f8850")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "584498da-88e1-4e40-9734-a1ad2adb1468")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d19081fb-aca3-44e2-97fc-c36d12e033ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1d61f673-cb82-4867-a698-b0ce920021e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "604002dd-d7ae-4978-a36c-bdd030a83c3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "94ae7cd0-0ec4-4480-a915-605538424391")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e642f1b7-e425-4e03-8112-8ea8d9c04e60")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7a7dfaf8-a08e-4426-b0a1-f02081c28c2f")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "db23eaa5-96b4-4e8f-b305-b6db378b2239")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7d7a4ed0-6017-457a-9670-58c7bd092519")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e8270f2a-842e-44fe-bda6-ba50abb08695")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0f5ce1ff-931d-4f28-9dfe-c8c039e60bfc")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c8fd5dc7-2cbc-49e0-a4d4-85c17c2c5a05")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "04bd660d-f4d1-4b2c-89a5-ac36d2216998")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "82892076-04df-4bce-a8a3-f6ac032ca826")
+		(at 139.303125 89.296875 180)
+		(property "Reference" "MX14"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "64eea506-3c6c-4477-92d2-2b340d3501ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "09b22536-883d-456b-84b7-e86e11392f7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c9ad9770-c069-41de-a17a-634e5cfbbaf1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2ddafd18-c0b4-4ca3-a844-471e9fbcdb72")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "47aed608-d117-4085-a3fb-b219c51df567")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "1a01598f-13f5-4c69-bd55-0dfb03d43c03")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0438aa99-8b44-4dcb-9e1a-3ee043fd1192")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e2296d17-2fef-4716-ab07-48d7ae333dd0")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7ce6c774-2ea7-4c92-b74c-49915e52c5df")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bccdf9f8-36f2-4a4b-abf0-4d9ee9c93472")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ab314373-6c9f-4d67-9280-12e87bbf3858")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b32eb5ab-28b0-4d36-a8ed-3bb9a0a92aa9")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "69d6c4a3-1be1-4c16-b369-235c5b4e3c8e")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "19337d3f-ba6f-45b1-81be-e5d5660659a4")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "89aa7c06-2d22-4fbe-bac0-38aa62f5129e")
+		(at 215.503125 113.109375 180)
+		(property "Reference" "MX25"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "86e1de01-810d-4898-86d0-f05bd8c26e39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "56ccd73c-57b7-4e4b-bc3f-d3451a6bddef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6add85a6-25b1-44cd-b9f9-8b1f003cafa0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c39817aa-1e60-4244-b29c-5553f8c24826")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fa388b51-d042-4421-9efb-d7f20239251b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "a47c4309-88b8-4465-9aae-531670d48d81")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7ae7f872-c568-4a4c-ac7c-4e908631e0d8")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f8170456-5bb2-432c-9c6a-4c0f28a12164")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6bee6a96-96f4-4a21-801f-08d3dbc41c9a")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "48da488f-03dc-4583-be3d-a986a133e5e4")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c409ad27-0b9f-49a3-8146-de9df84727fc")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f044edee-e998-42b2-916c-e648868f54a4")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b6684502-0e02-41bf-a76c-bbead3a3e819")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "07c7a07e-645e-4f0e-95ac-59a310cc84bf")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "8e1efde4-3fda-4f3f-a9b5-28865d446d8f")
+		(at 215.503125 94.059375 180)
+		(property "Reference" "MX18"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5c1e5965-a740-4138-8a2a-421457aa21bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "67834a93-3520-4540-ad4e-6dc9f132190a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "99cee696-8e87-4ed7-b3cb-19c663642883")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3d514ddc-aafd-46a4-8963-6c67f9f2abce")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "67d00b18-510b-4d22-8f1c-e1b785ac3119")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "52d65b4e-bf97-424b-99f5-76fce0de461d")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "58eea393-4f85-4c79-a1ce-857232331804")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9a7c80e6-09fb-4f26-9687-70544222882a")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "211d5f18-c0a8-496e-ab47-ee897fab4de0")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d5ff5cf1-26de-49ee-a1ac-16bf967063b0")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e47b0c00-c8e0-4b3c-8623-f28142c6b85b")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8b3c7892-1e73-444c-bc52-bc46d50378c6")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "57d6cb29-da59-44c5-a908-4f04de6c07bc")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2ac2d358-184c-47e2-ab2d-f686e5296724")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "9891f8bc-849e-4ca1-9794-ced7816f4f89")
+		(at 196.453125 132.159375 180)
+		(property "Reference" "MX26"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "cadbd348-df44-4b6c-8b75-0140a0821af0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "b6cc9c3d-96b6-4f93-8f17-696973f61b06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e78bc56c-5d3f-4d71-a1c9-11cf2b72a67c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c63d6214-4730-4760-bc95-db5f11028abb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "54cf33d6-c0c5-4b85-b67a-ba6468b5d99e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "af6d2213-35dc-4c1f-b5e3-daf83feeff0d")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e242b568-2e2f-45eb-bf38-dfcee66826f0")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2ff0141c-8e1c-417a-86ca-03975f762e96")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "42f896e8-359b-42db-b0c6-12ba7e9acd41")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5aba7323-9e58-4fdc-babe-40dc38752098")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "122ddfc6-8107-4701-998a-ac38f43fe4ed")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4797b7ec-e28d-40c6-a5af-ce727cd2fc26")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "08750467-c622-4c98-b1a0-e11c150c9747")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "640b5f72-abbe-4dcc-8a76-e06a0c22e2b1")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "a4732c3b-d3c9-4ca6-adf4-4655f016e2cc")
+		(at 139.303125 108.346875 180)
+		(property "Reference" "MX21"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5e62b9c9-7e9d-4c5f-ae02-77ec85c211b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "b19e1a76-d5f5-4d19-82fe-54ecf6e75e66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5ec3f9d9-432f-4c3d-a90c-4c1bc6007fb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3e41076d-d4ae-4eb5-82a1-3a95a6e57476")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1d55abf1-5a05-46a5-bead-ba723dc15baf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "361ed602-8459-431e-972d-d4452d510e6d")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0cb96692-1400-40d8-818e-43e3cfdcee06")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d07c13bd-2b69-4116-bfb0-8871f9dfb6c9")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "00e2bfc6-da29-4044-b6a6-c7bf9af166cd")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "45e5f9d3-88b4-4eff-b14a-44a591ae8831")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0e6a564b-b81f-43e1-a6b8-e545f5e15579")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c1fd6790-477c-4ecd-90d9-bb7e6008b103")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8c122136-904b-4cde-b74c-061406394390")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8e40dea0-8b0d-4872-9190-b5711d7f1ab6")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "a80a7a0e-5d92-413f-9166-49c8e212608f")
+		(at 215.503125 132.159375 180)
+		(property "Reference" "MX27"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "052ce83d-8ead-4309-934d-97829b611938")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "71402db3-9705-4bfc-a11b-151d48ad0a13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d3edecc2-d97e-48f3-9a46-97eab612d2bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8a9d2f8c-7105-4469-8929-e2b94d5ccbd4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1a1de7db-f1ce-4427-b01c-38d45ee73af5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "4c87a51e-72c6-4261-9115-da19debc2344")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1c77c611-2ff4-4b03-8474-17e9c5fd400f")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a3a037b4-c8cc-4c87-8d05-f28c193a7544")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5b8d5d7d-0b25-49bd-a673-76fb76912936")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "29828219-2584-413f-b2a7-20bc52e8cefd")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "58c6b6df-a366-4e3c-9a7d-de59e4a4b2ff")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "98e855f9-fdfa-4e7d-8342-92609674cd78")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0113a547-7c0f-48cd-8e60-3480e470e408")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "94312978-78f0-4e71-a98c-e857bd5c3337")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "a88a2cef-1a63-4591-82ab-12a46108b338")
+		(at 177.403125 51.196875 180)
+		(property "Reference" "MX4"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "bad974c1-a2f0-4a3b-808c-bea331d9b35c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "fc5a990b-155d-402b-b460-d0d9a8497fdb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "899251dc-8730-41b4-8684-19dc651a0fca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c08543b7-7aaf-4b49-aa51-1cfe02924f7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "891a18a3-ded2-4578-a2ce-2f4d96fa913b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "c93af101-56a2-46f5-b452-1dd5afa5598b")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2455c604-83bc-4b07-b31a-b59dff2e90e2")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b979aff1-81ec-4cca-86bd-362712f4c8f7")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "619d3a09-1ab9-4a9d-abef-d9d4c031886f")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c60bdd36-ef51-4eb7-8793-3fc4a5859f34")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2197a02b-0162-4f80-8054-24a990a605e7")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "20e03b96-bb7a-4fbf-add5-bcdfa580c8db")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d4168c23-4a1a-4ec4-9c7b-4b59cdf016ec")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1fb07d0c-635d-4615-b35f-e1355cb1774e")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "aaf6b234-adcc-423d-9a08-067cc070872c")
+		(at 101.203125 111.91875 180)
+		(property "Reference" "MX19"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "bc704d74-d983-49ca-a4b1-bbaaa2df5932")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "f0faab64-13c6-4d5a-8345-d09189234200")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7481825e-e93b-4de3-bb74-3bac9f911cf6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a2f3b8b0-4e0a-4b88-ba57-12886374d8e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "895ef687-3848-4155-9c53-750e57a09062")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "3e01362c-abfa-4793-ad68-77352b0cff38")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8a6fe787-f537-44e3-a5ec-9a05607af94d")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "73f35209-c10a-4a7a-8c8f-33a4ad05be11")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "98617135-90a8-43d7-b987-6deb5215cec5")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2474fa68-33cd-403d-ba2f-9b3236aaa93f")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f2fb15cc-e2a8-4850-bdeb-e6a4a0513478")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5ebd603d-0829-4d8d-a0fa-cca780e5dc50")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a2313546-2812-4bc1-9317-0b0e0db6cc16")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c48045bd-917d-45e5-8759-1746ea726d2c")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "b142617e-30f0-4a00-aa46-903b61a1653f")
+		(at 196.453125 113.109375 180)
+		(property "Reference" "MX24"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "2d7bcde5-db31-4fe8-9929-35fcfa15a547")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "95c0633f-054e-48ff-842a-0a91b8ccd499")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "20767ad3-189d-4bfd-9817-cdc602851550")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d739ffd2-34e1-4619-86e1-88deb2640d8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cb7b84bf-559d-4f8a-b8f5-ea64da5f0b46")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "22dee328-f006-4f6b-9563-fd6d93db979b")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "45550f0d-1969-405e-8e16-e99967b1c059")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "820aa1f6-e35b-4af1-a134-fe4f833be6f5")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5886d6f7-e7c2-4b38-8552-c153a14dacea")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4541c757-2943-4b93-84d6-6e576f9a1fb9")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ecf998a7-9ba9-4b96-a610-bfe501162d9c")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2a8811a7-d9a6-4027-ba53-71096d9fbdd4")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1e63dfb9-1d5f-41b6-a168-d9758b9dbae8")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9d0cecc3-5226-4980-8d73-7db5e526dc54")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "b15c41e4-5040-4f17-b798-345c9eef4522")
+		(at 196.453125 55.959375 180)
+		(property "Reference" "MX5"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ede88b3a-c1d2-4748-aadf-6f15199102ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "96c67daf-fb17-4d19-b511-425417e598fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1b814af8-a81d-4487-8c34-3ca721e44a7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d2b9f20b-ecb8-4d44-af0b-e8438777e8d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d9558db8-c8d3-49f3-b466-2d6e4331750c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "9ccfefbb-b932-4fdf-80a8-ba26392a3847")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e5c60e23-b4a5-467d-a9d5-e7daadde50bf")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a6396e1a-3320-4f23-ad28-b6c3c7af826e")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d65c14a0-ca69-4f71-a17c-52d29889a675")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6e8ff4fe-35bb-47db-ba73-cc62390fa786")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "629f64f5-aa6e-4701-9575-905e2d11e8d6")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b3c167d1-aa7f-40b6-ac9e-38ee564fb736")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "aaaabbf2-a4f0-41b3-8cdf-e26c1ad03c10")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e16feea9-b984-4af7-a480-844a36ef7713")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "b41b544c-e4a6-46e0-9e27-2bb4b561a959")
+		(at 117.013204 143.910268 -155)
+		(property "Reference" "CH1"
+			(at 0 0.5 25)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "005bf6c4-d01b-4dd3-9ed6-0dc1c6bf8119")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "choc_v1_SW_HS"
+			(at 0 -1 25)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "986f6ab1-e22c-40e2-a51d-92a8884d1578")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 25)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0bb863dd-b71a-4789-a795-692fcbd05312")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 25)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6829fba9-750b-4747-b1e7-6084e28b54f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 25)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5724af43-88ee-487b-b17c-a71095659c4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_poly
+			(pts
+				(xy -9.525 9.525) (xy 9.525 9.525) (xy 9.525 -9.525) (xy -9.525 -9.525)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "c4ffdc8d-cd88-48c9-83f1-dfcfd334e434")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3b7d31ae-ac3f-45da-bbe3-2eb4ec8f1eac")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bcbd450a-6457-4913-8ad9-6b1a49143956")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cea0dabc-e165-4543-ab30-d8149b671287")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cc900d6b-ab6c-4d71-8a3f-a5b0024d003a")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "00b41b07-ec8c-404b-a07a-bada37c6498d")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f03a4378-3262-4e6e-8b3c-0c2e2cf9a42c")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cdc8263e-61b5-4541-a774-c4de860ba574")
+		)
+		(fp_arc
+			(start -6.997237 -6.498884)
+			(mid -6.85079 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f5be82e5-9811-4666-b747-d51163937341")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "bca66074-1780-4c0e-ac85-907de4902bbc")
+		(at 177.403125 70.246875 180)
+		(property "Reference" "MX10"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "46e76979-6786-4b67-abd2-0614699bc983")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "8b981ae4-95dd-462d-b5b8-9342c6ce4a19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e97e257b-6d27-4a17-8555-6ee123ea1d6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fa19a30a-8376-4745-8390-ee9bc87bb567")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "87a8c388-e63e-4086-adc6-5a3c321ce14e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "e1cddc58-255c-4160-b755-af0c2d0f1325")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ab8bb047-ec4c-4bf5-8e43-2431425ffbb7")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9ecf82b9-06f8-43e4-a0cc-465711947585")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "623a0bed-66b0-4705-b828-cb73717865d9")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "81fc7d0e-d6b1-4017-9235-6e3c33f0a346")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3f4cdfe6-a45a-4a56-a1b5-5cf7d6750709")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3ed93ece-3ceb-4760-a426-aa88276f6819")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ef4355a9-41be-4e9b-905e-744106cebd01")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "af23fe1b-24cc-4190-af31-351bf93016f3")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "c2e0fd72-0f13-4bae-881d-901c01e4e156")
+		(at 158.353125 89.296875 180)
+		(property "Reference" "MX15"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5387ee84-fef7-4d59-86ca-8a8cfebfd2ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "a148b65a-685a-4639-9764-1f538a9f7836")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a9d6d567-5193-4fe0-a9e8-010f48fecfcf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "02a36439-4c78-42e7-a1b4-f9b89bf41525")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "65c4ba6c-f780-4562-8843-92ac1e7dc6ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "3191bc9c-d1f1-488a-a74b-080f19b8c5b7")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9ca6ca8f-7328-45f5-8e8a-5277713af061")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "63739275-902c-4ccd-9e15-b03f08c5baa1")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "012ea75f-25ab-4967-8b81-b07a2ee324dc")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "40ea06b7-f672-45ee-8fd2-984740903fe3")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "770b946c-20ee-4d64-91b4-9560e6a12daa")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d1082710-8a53-4f0c-aa15-212fd8d19518")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1b999e1a-4554-4f7f-aa1e-c7eaf8ec6cc0")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "53e84818-3e60-45e1-9620-74623fe67ec6")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "d42f7bd2-0236-403f-9140-8088e2ed7968")
+		(at 215.503125 55.959375 180)
+		(property "Reference" "MX6"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "fb468024-6a44-453b-ae7d-b6b8bde2a3cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "9cde294a-b291-4f2b-8444-a7791d331dfd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c9c9de6a-930d-4be8-89cb-6220f8f5923e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0ba9231e-5cc6-407e-bddf-2023970b0415")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dd5605d3-6e93-4bc5-9b2c-6f64ef346f0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "2c813613-6d5b-4729-af64-de480f599e92")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "947b5654-d988-48d9-9b11-74bde7d9328f")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1740e130-cb5e-40de-9738-b748e9cb3c47")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8f60e9d0-aeeb-41f0-b375-a479d8f79804")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "268488bb-4162-4e7f-88d1-ddd013e33947")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "83bf5bf1-42a7-4b25-bbfb-5b4eff04e61b")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "76a30ecd-65ad-4697-b5cd-61cee5913645")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "36b0204c-49e6-4165-900d-b0645b4ebdd4")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "55540569-d1c6-4086-86d7-02489b18a5e1")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "d8cb62a0-ee3f-4387-8ac1-eaae5adc3dcc")
+		(at 139.303125 51.196875 180)
+		(property "Reference" "MX2"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "9f99c340-a68e-4490-a90e-bb8914f901ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "b9d44714-49eb-4e47-b980-a573f06eae6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b54b6759-2a16-4a5c-b20d-ce70520ffd83")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a90003d1-a951-495a-9c06-f3a2ae0fae48")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e10f85ad-71b6-4bd2-88c3-cd270c3b3166")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "4b8b72ba-bfa5-46c7-9ad3-5917e2542ed8")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3c63f377-c5ec-441c-aca0-2dabed98c35c")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cf5c1932-8faa-4edf-8409-0ecdab590e2f")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bf6ecd29-2e18-427e-90ca-016e74c4d5e8")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "90ac3cfa-1bbe-42c2-afe5-fce965314fb4")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a80f2ea7-96c3-4da1-b25d-a2f8fe0b8c7b")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2974bbeb-802f-42a9-8060-078b3cb05daa")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c2c238f9-2052-4666-8ba8-f6025b8084a3")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d0217f4c-110c-4598-8047-66808208674e")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "d9c33267-ad66-4da6-aaa6-ee08da29545d")
+		(at 215.503125 75.009375 180)
+		(property "Reference" "MX12"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f2250013-4fd0-4854-bff1-f295a09a29e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "1f9e6b8b-d828-4129-98ef-04d081f6f897")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "280b10bb-be96-4d14-a6f5-32a02709b861")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "233ed2a1-a88a-4c35-930e-8c875898d899")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "30173734-1254-42e8-af12-a8859e5c7d24")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "f93486de-1620-4378-b0d2-f4c07d331d3f")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e156c184-f0d9-4e77-94df-5769513c4db4")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "972697d1-a3f7-45ff-a683-9b3f3d89bc9b")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7a304e0b-cc25-452f-be12-fdf073efdfa3")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e1fcf6b2-d045-4402-89b4-e6b41dcb566d")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8945df98-6e2b-4efd-b06e-03d1b0ada9a1")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "82036fd7-1bde-43fa-bbc1-3d82eb338062")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c3680fff-8833-4f1f-aaaa-c877ac89a1e7")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b8c02938-bb22-43ab-b87d-574583f5733d")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "eb591ad9-38cf-4ab1-9004-2d1252cf358a")
+		(at 196.453125 75.009375 180)
+		(property "Reference" "MX11"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "80373333-9758-4cca-97d4-2b1dbc531bfb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "c78e0c3c-f79f-43a7-9b18-7d061e4c9fd4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8dc8fdd5-3075-4a6d-9275-36a494ac21ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "517a4118-0db5-4b1d-a5d4-c40a1c3850e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c76d6aca-4e09-4015-9e56-cd2adc6bfb21")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "987e140a-80b5-4af3-9e0f-15243c5e10f6")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b924f571-aab1-4432-a400-cf4965ac10cc")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "311bf13c-4bcb-4b72-92e3-c6bb98de0aed")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1b4f0953-bedd-400c-a758-1f20fcf45f83")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d4463086-48a0-47f4-8be6-513efeabc9cb")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5f10653d-617b-4c30-8627-6b5ec66272d8")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4d696854-e4f9-4e45-bf10-1a180222d118")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f3ef6312-6464-4f8c-bb65-74aebcd3ff1e")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "60903035-0e47-4ef1-acc2-060f3e615e2e")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "f088d758-5675-47ed-9ca5-d03bee73c710")
+		(at 158.353125 108.346875 180)
+		(property "Reference" "MX22"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "48f63e42-5aca-4155-81b8-c05486d017c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "67c802ed-6d0e-45d2-a4bc-d8e76cd33441")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c5cb5776-8a86-49ee-8337-073bdbf03f5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a0186060-5f4a-4eeb-ac56-529f02dbfd64")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "de1a15d3-9008-4ee3-97f1-9b36873504d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "9124a90d-8c64-4ddc-b501-2871f357c1b2")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2e872477-77ff-409e-a15a-671f6b23c302")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "acaa1f4c-0bc2-4886-978c-18a500c6231c")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "190024c6-7879-4d19-b02a-263af9710485")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "64b65cbc-827a-4829-b969-0dffb5ee7edd")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "07da7de9-b9ec-4e39-9e99-402a12ba9d73")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2d42dfcf-ae70-4722-a48f-db8b7050fdd1")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d26a416b-6985-41bd-a7fa-01cd24a23f13")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "589e89f0-cbaf-4f60-8923-d97643ea29d5")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "f6ebe545-fe82-422b-91ce-8966726f0961")
+		(at 120.253125 51.196875 180)
+		(property "Reference" "MX1"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "792fa96f-809d-4771-8cdf-892ea06474f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "a5379baa-a2ff-48f3-bbb8-4ab5bfc9b29a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6a694a27-0ec3-4eb7-a1e9-75985d1b77f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "77524398-9525-49fe-8fb6-05899be2cbe8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e94c8192-2ecf-45e3-a157-4fe682146a45")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "5c019133-3545-43d5-a874-97896d387a85")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "685da9b4-4890-4807-93b2-315d16e3fa10")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "84c73401-e559-4e80-80f1-3504be041138")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "fc085179-6b8d-4b2c-a50b-8c0ba74093bb")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "461ba794-9af3-4d1b-b10e-8c95dee3be84")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "11acc1bc-65d1-4861-9128-0b2bc68ced53")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "de219788-a105-4c1e-8085-1cf25a9baebf")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e3d2e81f-7668-40f8-aa7e-2cf3d6f31e60")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ab9ad36e-343d-4cb2-9d2b-2ef7cbcfeb0b")
+		)
+	)
+	(footprint "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+		(layer "B.Cu")
+		(uuid "fd14f70e-2c4a-4d47-832c-58f2a6a279ba")
+		(at 158.353125 70.246875 180)
+		(property "Reference" "MX9"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "53844714-9385-4625-b28e-5dbefc44cefc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "6ce4a705-5531-49ff-bb5f-f8ca38fa1aba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate_MX_1u"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cdefae61-4754-4c7e-8b09-4fdefebdfa17")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f7a3980e-517f-4230-9127-7db8ec4e265c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cee4bb00-9c89-4115-a85b-b9c35e0ea218")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "907e3d7b-a801-4102-9af2-a4fc08ceae97")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2bc38eca-0df7-4287-a4b4-c8f51f331ab9")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "86eed6cd-2a40-4a18-8b6f-6a2ecd2cf817")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "55d8372a-65cd-400f-b88b-069f9339cb41")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4f6c5db3-f462-46e1-abc4-80da95b11caa")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "91cea9b2-d40c-4bf2-949c-2731bf575c1e")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0a9270c5-9a42-43ba-a45a-569d402bbaea")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d84033eb-12a7-4b9d-bc7b-e72db3fd7227")
+		)
+		(fp_arc
+			(start -6.997236 -6.498884)
+			(mid -6.850789 -6.852437)
+			(end -6.497236 -6.998884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "486e1334-44c1-4a5d-857b-5b3fc1f3f09e")
+		)
+	)
+	(gr_line
+		(start 130.347142 149.233572)
+		(end 112.626896 157.472153)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "02e47765-2279-44e0-bf80-a750a51898e7")
+	)
+	(gr_arc
+		(start 110.728125 42.8625)
+		(mid 111.076851 42.020601)
+		(end 111.91875 41.671875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "05e65539-a280-46e7-9361-62d0238f487b")
+	)
+	(gr_arc
+		(start 185.7375 119.0625)
+		(mid 186.579399 119.411226)
+		(end 186.928125 120.253125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "09a95632-dc5e-4701-b2a1-188f0d324db5")
+	)
+	(gr_arc
+		(start 185.7375 41.671875)
+		(mid 186.579453 42.020547)
+		(end 186.928125 42.8625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "106324f5-46fb-4ff4-adf1-1ff6ef77279f")
+	)
+	(gr_line
+		(start 150.889558 126.896875)
+		(end 150.889558 142.255975)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "18e8fb42-6c2e-4be0-8814-259f2e635937")
+	)
+	(gr_arc
+		(start 188.11875 46.434375)
+		(mid 187.276832 46.085668)
+		(end 186.928125 45.24375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1b2906ac-1c62-4418-b264-e4b6e744f5fc")
+	)
+	(gr_arc
+		(start 92.86875 121.44375)
+		(mid 92.026851 121.095024)
+		(end 91.678125 120.253125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1c72bb65-a216-45ba-aa26-cf45bde24e06")
+	)
+	(gr_arc
+		(start 119.0625 130.989592)
+		(mid 118.905264 131.527883)
+		(end 118.482992 131.896888)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1d122022-065b-4915-801e-42c2e8087fab")
+	)
+	(gr_line
+		(start 104.171636 138.529584)
+		(end 118.482992 131.896888)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "217974e1-703f-48f2-bd7e-e52893adaa1f")
+	)
+	(gr_line
+		(start 223.8375 46.434375)
+		(end 188.11875 46.434375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "274b58fd-c81f-4b42-9323-9cfe8688f823")
+	)
+	(gr_arc
+		(start 112.626896 157.472153)
+		(mid 111.788745 157.500512)
+		(end 111.172133 156.932101)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "28560fd6-dc75-46e5-8621-7e6e1b4be3b7")
+	)
+	(gr_line
+		(start 186.928125 45.24375)
+		(end 186.928125 42.8625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "287398db-d577-4d2f-abae-da65c3f45a3d")
+	)
+	(gr_arc
+		(start 188.07016 148.664255)
+		(mid 187.273157 148.43005)
+		(end 186.928125 147.674393)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2d921e5d-a916-4345-81c3-84ef71246a04")
+	)
+	(gr_line
+		(start 126.20625 123.825)
+		(end 169.839583 123.825)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2f1be15d-8adc-40aa-9db5-0fbdc287e2cc")
+	)
+	(gr_line
+		(start 92.86875 102.39375)
+		(end 109.5375 102.39375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "34388ad6-b221-4202-ac37-5527800256dd")
+	)
+	(gr_line
+		(start 169.839558 126.896875)
+		(end 169.839558 142.255975)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "35ac440d-3a25-432b-9bf0-beacb4ab64e5")
+	)
+	(gr_arc
+		(start 91.678125 103.584375)
+		(mid 92.026851 102.742476)
+		(end 92.86875 102.39375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "38a25466-35ed-4b33-8214-bcef8059122b")
+	)
+	(gr_arc
+		(start 129.778125 121.44375)
+		(mid 130.475577 119.759952)
+		(end 132.159375 119.0625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "415be968-a62f-4a77-b8f5-8775589e8889")
+	)
+	(gr_line
+		(start 185.7375 41.671875)
+		(end 111.91875 41.671875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "43663fac-390b-4210-a014-3be82db869bc")
+	)
+	(gr_arc
+		(start 223.8375 46.434375)
+		(mid 224.679395 46.783105)
+		(end 225.028125 47.625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "44976332-a695-4d29-b332-5ab55cad2687")
+	)
+	(gr_arc
+		(start 103.631584 139.984347)
+		(mid 103.603182 139.14618)
+		(end 104.171636 138.529584)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4e3f6b5a-916e-4a0c-a609-4c1b8617414e")
+	)
+	(gr_arc
+		(start 119.0625 125.015625)
+		(mid 119.411226 124.173726)
+		(end 120.253125 123.825)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "552efe67-eb06-4d2c-a67f-159d4156a526")
+	)
+	(gr_line
+		(start 171.030183 125.0156)
+		(end 171.030183 142.875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "57f35d54-c8f4-4d7e-a17e-a967b1439298")
+	)
+	(gr_line
+		(start 119.0625 130.989592)
+		(end 119.0625 125.015625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "665f7aeb-2d9f-4e95-b4ad-e78c1425e7ac")
+	)
+	(gr_arc
+		(start 169.839583 123.825)
+		(mid 170.681464 124.173719)
+		(end 171.030183 125.0156)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6be3617c-fe42-4bac-816b-be1bfbd9379e")
+	)
+	(gr_line
+		(start 121.44375 123.825)
+		(end 120.253125 123.825)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6ff8d5b5-ec42-4e19-8a00-2641693be857")
+	)
+	(gr_line
+		(start 188.07016 148.664255)
+		(end 222.365758 143.743188)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7034f9cd-23d3-4d20-bd7d-9b43e2c61945")
+	)
+	(gr_line
+		(start 186.928125 120.253125)
+		(end 186.928125 147.674393)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7f3a1a40-0d62-4239-83f9-c37bb1fe7ef6")
+	)
+	(gr_line
+		(start 225.028125 47.625)
+		(end 225.028125 141.684375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8817cfe7-4677-468b-8f05-41f0188016fe")
+	)
+	(gr_line
+		(start 126.20625 121.44375)
+		(end 126.20625 123.825)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "88607d77-91a4-4bcd-9d9d-b379c27aeb86")
+	)
+	(gr_line
+		(start 149.598933 144.065625)
+		(end 130.347142 149.233572)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "963f70d5-de20-4dbb-8117-781d6e0d226a")
+	)
+	(gr_line
+		(start 121.44375 121.44375)
+		(end 92.86875 121.44375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "99622cab-cf0e-4a07-8e4f-c3e8bea26f67")
+	)
+	(gr_line
+		(start 111.172133 156.932101)
+		(end 103.631584 139.984347)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a259e019-faa1-4997-af58-5988fcb79f77")
+	)
+	(gr_line
+		(start 150.889558 142.255975)
+		(end 169.839558 142.255975)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b33554f4-3abb-4b0c-a21d-21509e30c7d8")
+	)
+	(gr_line
+		(start 110.728125 101.203125)
+		(end 110.728125 42.8625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ba1a0078-749e-4bb1-bea6-69e60ad361a4")
+	)
+	(gr_line
+		(start 169.839558 126.896875)
+		(end 150.889558 126.896875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bf484085-3c3f-4c5d-b022-4ad96d08b0f0")
+	)
+	(gr_arc
+		(start 171.030183 142.875)
+		(mid 170.681461 143.716903)
+		(end 169.839558 144.065625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c303e583-2a01-46aa-b0de-e960fc3e7188")
+	)
+	(gr_line
+		(start 91.678125 120.253125)
+		(end 91.678125 103.584375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c847cdf6-8787-4b45-83a0-5fa96d89a869")
+	)
+	(gr_line
+		(start 129.778125 121.44375)
+		(end 126.20625 121.44375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c8509a0f-f01e-488e-b7b1-44e893980a34")
+	)
+	(gr_line
+		(start 185.7375 119.0625)
+		(end 132.159375 119.0625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ca80eb4d-e6da-4901-a69a-7ac5dd777144")
+	)
+	(gr_line
+		(start 121.44375 121.44375)
+		(end 121.44375 123.825)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cd020edf-a76e-4bdc-9a26-2e7f3ab4514c")
+	)
+	(gr_arc
+		(start 110.728125 101.203125)
+		(mid 110.379399 102.045024)
+		(end 109.5375 102.39375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d6c4ab11-f979-4aeb-bf13-15561a1dd03d")
+	)
+	(gr_arc
+		(start 225.028124 141.684375)
+		(mid 224.048559 143.168479)
+		(end 222.365758 143.743188)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e0cfca1f-731d-4936-91aa-98fd3e038123")
+	)
+	(gr_line
+		(start 169.839558 144.065625)
+		(end 149.598933 144.065625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e842f9db-6f84-4ac7-9c81-9c0f10659ec3")
+	)
+	(gr_text "test1"
+		(at 195.2625 144.065625 0)
+		(layer "F.SilkS" knockout)
+		(uuid "26b39cd3-3b7e-4bf9-93db-5998c8c11a3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "negL"
+		(at 189.309375 144.332395 0)
+		(layer "F.SilkS")
+		(uuid "f9ae553d-e098-43ae-a5f4-bc841a698fb4")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+)

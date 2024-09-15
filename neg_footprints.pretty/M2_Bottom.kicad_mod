@@ -1,0 +1,89 @@
+(footprint "M2_Bottom"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 2.2mm, no annular, M2")
+	(tags "mounting hole 2.2mm no annular m2")
+	(property "Reference" "MT**"
+		(at 0 -3.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6ea53deb-6b76-4edd-a426-3e86f48316ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "M2_Bottom"
+		(at 0 3.2 0)
+		(layer "F.Fab")
+		(uuid "ced117ec-6cf1-42f9-a11b-2f822ff276f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "664e32cc-b95c-484c-b6a0-3c274d86b366")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e073d81-55ff-43ac-ba10-affdb24f6b12")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8af5637c-5820-4d56-bb44-b44a32b03198")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d971edda-c5f7-47e7-9d09-590134c4a2e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.5 3.5)
+		(drill 2.2)
+		(layers "B.Cu" "B.Mask")
+		(uuid "6e878f4b-8bfb-4efb-a589-87d87f94b41d")
+	)
+)
