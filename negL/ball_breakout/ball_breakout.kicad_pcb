@@ -2855,7 +2855,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D3"
-			(at 2.095786 0.160674 270)
+			(at 2.095786 0.160674 -90)
 			(layer "B.SilkS")
 			(uuid "075676b4-f007-400a-82b2-f03a7d0e0427")
 			(effects
@@ -3934,7 +3934,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at -2.077959 -0.046137 270)
+			(at -2.077959 -0.046137 -90)
 			(layer "B.SilkS")
 			(uuid "15c7996f-1b82-40e7-9d4d-30e83384e21d")
 			(effects
@@ -4636,7 +4636,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D2"
-			(at 2.114073 0.079782 270)
+			(at 2.114073 0.079782 -90)
 			(layer "B.SilkS")
 			(uuid "76d59f2a-bc65-4aa8-ab2a-406d7b37a85d")
 			(effects
@@ -6897,7 +6897,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL10A106MA8NRNC"
+		(property "Value" "CL10A106KP8NNNC"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "17a72f42-4725-4725-afb3-3af85053ac85")
@@ -6923,7 +6923,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6937,7 +6937,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "0603 100u"
+		(property "Description" "0603 10u"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6951,7 +6951,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C96446"
+		(property "LCSC" "C19702"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7311,6 +7311,32 @@
 		(at 85.896534 91.446865 0)
 		(layer "F.SilkS")
 		(uuid "2887c9e8-26c3-4fe0-9856-a7618f258f17")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "neg_ball"
+		(at 91.496853 93.914714 0)
+		(layer "F.SilkS")
+		(uuid "30004914-0292-4a84-92d3-2202c2eece56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "v0.1"
+		(at 98.21875 93.799153 0)
+		(layer "F.SilkS" knockout)
+		(uuid "32f01a35-1084-4172-94f8-10cc584b580f")
 		(effects
 			(font
 				(size 0.6 0.6)

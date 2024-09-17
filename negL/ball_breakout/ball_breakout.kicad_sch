@@ -3244,28 +3244,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape output)
-		(at 135.89 99.06 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "c1e7c429-7a9b-4c82-b4b8-215176032748")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 104.5443 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VCC"
 		(shape input)
 		(at 34.29 138.43 180)
@@ -3306,28 +3284,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 111.76 54.61 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "dc1afa43-92d6-4705-94e2-cf8647c0df29")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 60.0943 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3416,7 +3372,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL10A106MA8NRNC"
+		(property "Value" "CL10A106KP8NNNC"
 			(at 173.736 71.882 0)
 			(effects
 				(font
@@ -3434,7 +3390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
 			(at 170.18 69.85 0)
 			(effects
 				(font
@@ -3443,7 +3399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603 100u"
+		(property "Description" "0603 10u"
 			(at 184.404 68.834 0)
 			(effects
 				(font
@@ -3451,7 +3407,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C96446"
+		(property "LCSC" "C19702"
 			(at 174.244 68.58 0)
 			(effects
 				(font
@@ -5368,6 +5324,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 111.76 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "944a567d-0e05-4a37-ae64-f4087751bbb8")
+		(property "Reference" "#PWR010"
+			(at 111.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac704fef-bb6c-486c-b9af-a166a17f9b77")
+		)
+		(instances
+			(project "ball_breakout"
+				(path "/f92a57e7-90e7-4a51-b519-f6846ac9b9dd"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 138.43 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6120,6 +6142,72 @@
 			(project "ball_breakout"
 				(path "/f92a57e7-90e7-4a51-b519-f6846ac9b9dd"
 					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe818bf4-d4a9-45ab-b839-1fa3d2088c27")
+		(property "Reference" "#PWR09"
+			(at 135.89 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7385740b-b117-4604-af48-0c9c0d2cdf38")
+		)
+		(instances
+			(project "ball_breakout"
+				(path "/f92a57e7-90e7-4a51-b519-f6846ac9b9dd"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
