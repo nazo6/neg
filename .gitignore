@@ -33,3 +33,5 @@ jlcpcb
 
 *.step
 *_old
+
+*auto_saved_files*
