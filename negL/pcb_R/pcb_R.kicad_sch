@@ -5348,10 +5348,6 @@
 		(uuid "30416277-5a50-4acf-b33f-99736bc977e6")
 	)
 	(no_connect
-		(at 73.66 33.02)
-		(uuid "57a0f75c-393a-4891-9847-fbffd7063218")
-	)
-	(no_connect
 		(at 160.02 226.06)
 		(uuid "68249b7b-a9a4-4114-b8e7-571360cd2aa9")
 	)
@@ -5362,6 +5358,10 @@
 	(no_connect
 		(at 374.65 151.13)
 		(uuid "f01111ea-51a9-4d35-8e2f-85014c075d46")
+	)
+	(no_connect
+		(at 74.93 30.48)
+		(uuid "fb7f9d80-6f4a-49e4-b088-8e3ef6af7105")
 	)
 	(wire
 		(pts
@@ -6515,7 +6515,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 33.02) (xy 73.66 33.02)
+			(xy 69.85 33.02) (xy 74.93 33.02)
 		)
 		(stroke
 			(width 0)
@@ -8273,7 +8273,7 @@
 		)
 		(uuid "811a497a-0d07-49af-8434-9d20650b7925")
 	)
-	(text "NOTE: BLE Micro ProではBATは1ピンのみで\n下のピンが5V出力ピンとなっているため、\n上のピンのみをBAT+として扱う"
+	(text "NOTE: BLE Micro ProではBAT+の下側が5Vピン(多分VDDH?)\nなのでそっちにBAT+を繋ぐ(上側は多分VDDで3.6Vまでしか受け付けない!)"
 		(exclude_from_sim no)
 		(at 66.802 17.272 0)
 		(effects
@@ -8438,6 +8438,28 @@
 		(uuid "1b98c727-056e-4550-96d1-c21e76350814")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 137.16 32.8167 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BAT+"
+		(shape output)
+		(at 74.93 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "1ee3b051-685f-462e-b11c-850198a867e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.8138 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9560,28 +9582,6 @@
 		(uuid "dfc42893-a973-4b30-8daa-20d145fce2bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 258.0389 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BAT+"
-		(shape output)
-		(at 74.93 30.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "ed8751da-c341-4102-ae8e-c17e77ff1520")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.8138 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
