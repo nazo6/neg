@@ -5257,6 +5257,12 @@
 		(uuid "0153eac7-6e2b-48d3-866f-5c11b065a09d")
 	)
 	(junction
+		(at 80.01 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02e4a426-ea59-4543-8ede-866f85d6b6c8")
+	)
+	(junction
 		(at 321.31 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5447,12 +5453,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38ab02e8-70b5-4e41-a6da-9f3c9cf69d16")
-	)
-	(junction
-		(at 110.49 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39dd1dd3-8680-48a4-b6ba-bfbc1dcfea32")
 	)
 	(junction
 		(at 127 48.26)
@@ -5743,12 +5743,6 @@
 		(uuid "a17c8d1f-2317-4d0b-91ec-5ea67f36c686")
 	)
 	(junction
-		(at 80.01 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a384a4f5-dc6d-4001-b650-a403cf763036")
-	)
-	(junction
 		(at 375.92 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5923,6 +5917,12 @@
 		(uuid "d03e6515-67ed-4120-9292-33073b09dd62")
 	)
 	(junction
+		(at 80.01 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2cd4057-a970-4c53-99ef-10966ff23c12")
+	)
+	(junction
 		(at 29.21 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5983,16 +5983,16 @@
 		(uuid "e60bc5ff-bcc2-4e04-af4e-0ced73777294")
 	)
 	(junction
+		(at 80.01 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb175436-03ee-4a44-8dba-0f4170724ccd")
+	)
+	(junction
 		(at 248.92 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebc892db-a982-4617-b2a1-79ed046a1030")
-	)
-	(junction
-		(at 102.87 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef7a9e72-cd31-4322-89fd-362ae7afd048")
 	)
 	(junction
 		(at 273.05 45.72)
@@ -6320,6 +6320,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 218.44) (xy 80.01 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b9d470f-14a7-4ef8-a3d0-04a59a2c37b9")
+	)
+	(wire
+		(pts
 			(xy 83.82 254) (xy 74.93 254)
 		)
 		(stroke
@@ -6547,16 +6557,6 @@
 			(type default)
 		)
 		(uuid "223b5626-75a7-49c2-9d6f-c2d98cec5092")
-	)
-	(wire
-		(pts
-			(xy 80.01 214.63) (xy 80.01 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "225a616d-a10e-46a3-a7d9-96e6a02ca107")
 	)
 	(wire
 		(pts
@@ -7730,16 +7730,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 214.63) (xy 102.87 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "767c656f-6c93-4baa-9972-358cd617f6b1")
-	)
-	(wire
-		(pts
 			(xy 142.24 132.08) (xy 142.24 143.51)
 		)
 		(stroke
@@ -7757,6 +7747,16 @@
 			(type default)
 		)
 		(uuid "7751bde6-d73a-45cc-bdd2-b57f88e6cecb")
+	)
+	(wire
+		(pts
+			(xy 91.44 203.2) (xy 80.01 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e52cfa-5c45-4766-b234-6e71ef19781a")
 	)
 	(wire
 		(pts
@@ -7960,23 +7960,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 226.06) (xy 102.87 226.06)
+			(xy 80.01 226.06) (xy 161.29 226.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8342e955-fbd2-4891-8731-4b2f786c8fb1")
-	)
-	(wire
-		(pts
-			(xy 110.49 214.63) (xy 110.49 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83640747-f85d-4fb8-9207-61744345c328")
 	)
 	(wire
 		(pts
@@ -8570,6 +8560,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 210.82) (xy 80.01 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae9d154d-9cb8-40d7-8507-e1c9da81a6b2")
+	)
+	(wire
+		(pts
 			(xy 321.31 81.28) (xy 321.31 99.06)
 		)
 		(stroke
@@ -8680,6 +8680,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 210.82) (xy 80.01 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65ab499-39d7-428d-a9d9-8d1359215155")
+	)
+	(wire
+		(pts
 			(xy 172.72 60.96) (xy 182.88 60.96)
 		)
 		(stroke
@@ -8697,16 +8707,6 @@
 			(type default)
 		)
 		(uuid "b6d1d322-95fe-492b-beb5-76cfc13e7781")
-	)
-	(wire
-		(pts
-			(xy 110.49 226.06) (xy 161.29 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7013a27-1e74-4268-9673-3673ee9ae3a5")
 	)
 	(wire
 		(pts
@@ -8847,6 +8847,16 @@
 			(type default)
 		)
 		(uuid "be709e0f-c4ef-4416-8d43-0998ca600d77")
+	)
+	(wire
+		(pts
+			(xy 80.01 196.85) (xy 80.01 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb6308e-a632-4bfb-8a4d-987941c043ca")
 	)
 	(wire
 		(pts
@@ -9027,16 +9037,6 @@
 			(type default)
 		)
 		(uuid "c78a7f29-dc1a-4773-8fa6-fad242a6ff3a")
-	)
-	(wire
-		(pts
-			(xy 80.01 218.44) (xy 80.01 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca39f9a1-d901-4327-8f63-a605d4bdded6")
 	)
 	(wire
 		(pts
@@ -9738,7 +9738,7 @@
 		)
 		(uuid "8f8fece4-eac5-4d79-b1fc-120043450bb0")
 	)
-	(text "Jumper config\n\n[Power]\nJP1: enables direct output from battery. Use this for 14500 battery.\nJP2: enables boost converter to 3.3v. Use this for AA battery.\nJP3: Debug purpose. Shorts diode to block charging AA battery.\n\nNOTE: JP1 and JP2 are exclusive!\n\n[Matrix]\nJP4: Jumper to detect hand. Enables COL0, ROW3.\n\n[TRRS]\nJP5-8: Exists for ProMicro RP2040, whose uart pin cannot be selected. Usually, jump JP5 and JP6.\n\n[LED]\nJP9,10: Jump these to enable 5V boost converter for LED VCC.\nJP11: Debug purpose. Jump this to disable boost converter and just use vcc of promicro.\n\nNOTE: [JP9 and JP10] and JP11 are exclusive!\n\nJP12: Enables level shifting of LED signal. This should be jumped if LED VCC boost converter is enabled.\nJP13: Disables level shifting of LED signal."
+	(text "Jumper config\n\n[Power]\nJP1: enables direct output from battery. Use this for 14500 battery.\nJP2: enables boost converter to 3.3v. Use this for AA battery.\nJP3: Shorts the diode that allows current to flow only in the discharging direction. Only jump when using LiPo or Li-ion batteries.\n\nNOTE: JP1 and JP2 are exclusive!\n\n[Matrix]\nJP4: Jumper to detect hand. Enables COL0, ROW3.\n\n[TRRS]\nJP5-8: Exists for ProMicro RP2040, whose uart pin cannot be selected. Usually, jump JP5 and JP6.\n\n[LED]\nJP9,10: Jump these to enable 5V boost converter for LED VCC.\nJP11: Debug purpose. Jump this to disable boost converter and just use vcc of promicro.\n\nNOTE: [JP9 and JP10] and JP11 are exclusive!\n\nJP12: Enables level shifting of LED signal. This should be jumped if LED VCC boost converter is enabled.\nJP13: Disables level shifting of LED signal."
 		(exclude_from_sim no)
 		(at 15.748 314.198 0)
 		(effects
@@ -10633,7 +10633,7 @@
 	)
 	(global_label "BAT+"
 		(shape output)
-		(at 80.01 214.63 90)
+		(at 80.01 196.85 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10643,7 +10643,7 @@
 		)
 		(uuid "8ff1bbcb-bdb9-485c-bccb-9d9242035c0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.01 206.7462 90)
+			(at 80.01 188.9662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11491,7 +11491,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 128.778 57.15 0)
 			(effects
 				(font
@@ -12252,6 +12252,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 91.44 207.01 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "15826551-ff9e-4db2-aeb4-e2a7a8add201")
+		(property "Reference" "JP3"
+			(at 94.742 206.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 96.52 206.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 91.44 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper"
+			(at 96.52 190.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ffb6b45-6c52-45be-ad67-45b434263580")
+		)
+		(pin "1"
+			(uuid "d0dff32e-e66c-46ed-bf49-b8aef030ed12")
+		)
+		(instances
+			(project "pcb_R"
+				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 345.44 185.42 0)
 		(unit 1)
@@ -12470,7 +12537,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 138.938 57.15 0)
 			(effects
 				(font
@@ -12731,7 +12798,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 128.778 106.68 0)
 			(effects
 				(font
@@ -13076,7 +13143,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 149.098 57.15 0)
 			(effects
 				(font
@@ -13318,7 +13385,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 179.578 106.68 0)
 			(effects
 				(font
@@ -13811,7 +13878,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 169.418 57.15 0)
 			(effects
 				(font
@@ -13973,7 +14040,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 128.778 123.19 0)
 			(effects
 				(font
@@ -14068,7 +14135,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 114.3 149.098 0)
 			(effects
 				(font
@@ -14364,7 +14431,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 159.258 106.68 0)
 			(effects
 				(font
@@ -15766,7 +15833,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 169.418 106.68 0)
 			(effects
 				(font
@@ -15927,7 +15994,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 169.418 123.19 0)
 			(effects
 				(font
@@ -16025,73 +16092,6 @@
 			(project ""
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 106.68 214.63 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "6193b91d-7def-4113-8840-92619d5eab5c")
-		(property "Reference" "JP3"
-			(at 106.426 211.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 106.426 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 106.68 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper"
-			(at 90.424 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a12c2fad-9dc5-4c07-bdca-69e18dc5da58")
-		)
-		(pin "1"
-			(uuid "6fe6dd66-0f5a-4240-a168-c1af723a92c1")
-		)
-		(instances
-			(project "pcb_R"
-				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -16597,7 +16597,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 179.578 73.66 0)
 			(effects
 				(font
@@ -16775,7 +16775,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 169.418 90.17 0)
 			(effects
 				(font
@@ -17036,7 +17036,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 149.098 73.66 0)
 			(effects
 				(font
@@ -17337,7 +17337,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 118.618 123.19 0)
 			(effects
 				(font
@@ -17802,7 +17802,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 169.418 73.66 0)
 			(effects
 				(font
@@ -18063,7 +18063,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 179.578 57.15 0)
 			(effects
 				(font
@@ -18158,7 +18158,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 159.258 90.17 0)
 			(effects
 				(font
@@ -18614,7 +18614,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 138.938 90.17 0)
 			(effects
 				(font
@@ -19604,7 +19604,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 149.098 90.17 0)
 			(effects
 				(font
@@ -20352,7 +20352,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 128.778 73.66 0)
 			(effects
 				(font
@@ -20537,101 +20537,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 106.68 226.06 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c1d5d9b3-948b-4e81-ab77-8f798af037c5")
-		(property "Reference" "D31"
-			(at 106.68 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS12"
-			(at 106.68 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 106.68 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 106.68 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 106.68 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 106.68 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C18199177"
-			(at 106.68 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1af7af9-a911-4217-b51f-9055d8df0d77")
-		)
-		(pin "2"
-			(uuid "d97e3b44-bf1f-49cf-9108-79d1b7530522")
-		)
-		(instances
-			(project "pcb_R"
-				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "D31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 242.57 217.17 0)
 		(unit 1)
@@ -20769,7 +20674,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 138.938 106.68 0)
 			(effects
 				(font
@@ -21233,7 +21138,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 179.578 123.19 0)
 			(effects
 				(font
@@ -21690,7 +21595,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 128.778 90.17 0)
 			(effects
 				(font
@@ -22620,7 +22525,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 149.098 106.68 0)
 			(effects
 				(font
@@ -22850,7 +22755,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 138.938 73.66 0)
 			(effects
 				(font
@@ -23348,7 +23253,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 118.618 106.68 0)
 			(effects
 				(font
@@ -23443,7 +23348,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 179.578 90.17 0)
 			(effects
 				(font
@@ -23538,7 +23443,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 159.258 57.15 0)
 			(effects
 				(font
@@ -23795,6 +23700,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 80.01 207.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9c85777-b06f-4cd2-8419-7547f440ebce")
+		(property "Reference" "D31"
+			(at 86.36 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 83.82 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 80.01 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 80.01 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 80.01 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 80.01 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2480"
+			(at 86.36 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f8ed22d-50fe-43a0-98c7-abe40e2048b8")
+		)
+		(pin "2"
+			(uuid "ddf440a2-3cd4-42b6-8062-34304778d02e")
+		)
+		(instances
+			(project "pcb_R"
+				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 328.93 63.5 270)
 		(unit 1)
@@ -24025,7 +24024,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C7420318"
 			(at 159.258 73.66 0)
 			(effects
 				(font
