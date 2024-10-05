@@ -6710,7 +6710,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 97.79) (xy 114.3 110.49)
+			(xy 114.3 97.79) (xy 114.3 102.87)
 		)
 		(stroke
 			(width 0)
@@ -9737,19 +9737,6 @@
 			)
 		)
 		(uuid "8f8fece4-eac5-4d79-b1fc-120043450bb0")
-	)
-	(text "Jumper config\n\n[Power]\nJP1: enables direct output from battery. Use this for 14500 battery.\nJP2: enables boost converter to 3.3v. Use this for AA battery.\nJP3: Shorts the diode that allows current to flow only in the discharging direction. Only jump when using LiPo or Li-ion batteries.\n\nNOTE: JP1 and JP2 are exclusive!\n\n[Matrix]\nJP4: Jumper to detect hand. Enables COL0, ROW3.\n\n[TRRS]\nJP5-8: Exists for ProMicro RP2040, whose uart pin cannot be selected. Usually, jump JP5 and JP6.\n\n[LED]\nJP9,10: Jump these to enable 5V boost converter for LED VCC.\nJP11: Debug purpose. Jump this to disable boost converter and just use vcc of promicro.\n\nNOTE: [JP9 and JP10] and JP11 are exclusive!\n\nJP12: Enables level shifting of LED signal. This should be jumped if LED VCC boost converter is enabled.\nJP13: Disables level shifting of LED signal."
-		(exclude_from_sim no)
-		(at 15.748 314.198 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "ee872a5b-79fa-4dbf-bb3d-87f4486bcb95")
 	)
 	(global_label "MISO"
 		(shape input)
@@ -19451,6 +19438,101 @@
 			(project "mykb"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
 					(reference "MX25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 114.3 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b07b4dc2-1278-4d39-a6e0-a21640615b1b")
+		(property "Reference" "D32"
+			(at 110.998 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 110.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 118.745 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 110.998 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "674ecbbc-007c-4282-ba19-5c5fd4a4670e")
+		)
+		(pin "2"
+			(uuid "c83ce995-9c1b-41b6-80c0-f5936ed5d92d")
+		)
+		(instances
+			(project "pcb_R"
+				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
+					(reference "D32")
 					(unit 1)
 				)
 			)
