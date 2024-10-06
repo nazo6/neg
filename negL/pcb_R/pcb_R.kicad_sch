@@ -9930,7 +9930,7 @@
 	)
 	(rectangle
 		(start 27.94 350.52)
-		(end 152.4 364.49)
+		(end 163.83 364.49)
 		(stroke
 			(width 0)
 			(type default)
@@ -21978,6 +21978,71 @@
 			(project "pcb_R"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
 					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 153.67 356.87 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2052d09-7f07-4cd4-844b-30ab04f2de8b")
+		(property "Reference" "MT12"
+			(at 156.21 355.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 156.21 358.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neg_footprints:M2_SPACER"
+			(at 153.67 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 153.67 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pcb_R"
+				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
+					(reference "MT12")
 					(unit 1)
 				)
 			)
