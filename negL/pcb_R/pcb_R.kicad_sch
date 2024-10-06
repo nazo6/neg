@@ -11692,7 +11692,7 @@
 				)
 			)
 		)
-		(property "Footprint" "neg_footprints:EVQWGD001_EC12"
+		(property "Footprint" "neg_footprints:choc_encoder"
 			(at 398.78 142.24 0)
 			(effects
 				(font
@@ -13794,6 +13794,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15127"
+			(at 162.5601 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3861a1fe-1c71-409b-bb36-d53ca7af51ac")
 		)
@@ -14041,6 +14050,15 @@
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
 			(at 151.13 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 149.8599 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14846,7 +14864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39311252-a057-48b0-adc6-3cad2d8bcfc8")
-		(property "Reference" "JP11"
+		(property "Reference" "JP9"
 			(at 285.75 212.0899 90)
 			(effects
 				(font
@@ -14900,7 +14918,7 @@
 		(instances
 			(project "pcb_R"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "JP11")
+					(reference "JP9")
 					(unit 1)
 				)
 			)
@@ -16302,7 +16320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d268b9e-953d-476b-8643-0ea4f29faaa7")
-		(property "Reference" "JP13"
+		(property "Reference" "JP12"
 			(at 46.228 235.204 0)
 			(effects
 				(font
@@ -16353,7 +16371,7 @@
 		(instances
 			(project "pcb_R"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "JP13")
+					(reference "JP12")
 					(unit 1)
 				)
 			)
@@ -17555,7 +17573,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a5447fe-f09a-4bc0-a3f8-233bcd61bc5d")
-		(property "Reference" "D32"
+		(property "Reference" "D31"
 			(at 375.158 102.87 0)
 			(effects
 				(font
@@ -17635,7 +17653,7 @@
 		(instances
 			(project "pcb_R"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "D32")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -19736,6 +19754,15 @@
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
 			(at 280.67 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 287.02 262.8901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23628,7 +23655,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e17a6a1a-3d1b-4e7b-b21c-2e2b59e0cdfa")
-		(property "Reference" "JP9"
+		(property "Reference" "JP10"
 			(at 326.39 212.0899 90)
 			(effects
 				(font
@@ -23682,7 +23709,7 @@
 		(instances
 			(project "pcb_R"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "JP9")
+					(reference "JP10")
 					(unit 1)
 				)
 			)
@@ -23928,7 +23955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8bf2d4c-1572-4f7b-b350-e6ec21bf200f")
-		(property "Reference" "JP12"
+		(property "Reference" "JP11"
 			(at 37.338 235.204 0)
 			(effects
 				(font
@@ -23979,7 +24006,7 @@
 		(instances
 			(project "pcb_R"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "JP12")
+					(reference "JP11")
 					(unit 1)
 				)
 			)
@@ -24837,7 +24864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9c85777-b06f-4cd2-8419-7547f440ebce")
-		(property "Reference" "D31"
+		(property "Reference" "D32"
 			(at 133.35 36.83 0)
 			(effects
 				(font
@@ -24916,7 +24943,7 @@
 		(instances
 			(project "pcb_R"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "D31")
+					(reference "D32")
 					(unit 1)
 				)
 			)
