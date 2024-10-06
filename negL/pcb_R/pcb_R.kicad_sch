@@ -7420,6 +7420,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 81.28) (xy 50.8 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5016f6fb-a85a-48aa-9867-fa23dd1c42ab")
+	)
+	(wire
+		(pts
 			(xy 176.53 107.95) (xy 161.29 107.95)
 		)
 		(stroke
@@ -11322,7 +11332,7 @@
 	)
 	(global_label "BALL_MOTION"
 		(shape input)
-		(at 50.8 81.28 270)
+		(at 50.8 86.36 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11332,7 +11342,7 @@
 		)
 		(uuid "d5b15309-e89f-4834-9f90-8fdba8a06057")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 93.5861 90)
+			(at 50.8 98.6661 90)
 			(effects
 				(font
 					(size 1.27 1.27)
