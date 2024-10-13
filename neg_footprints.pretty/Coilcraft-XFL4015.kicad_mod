@@ -1,0 +1,117 @@
+(footprint "Coilcraft-XFL4015"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.5 -5.5 0)
+		(layer "F.SilkS")
+		(uuid "3968ec9d-e8ee-4f1d-8e65-798044b6e94f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Coilcraft-XFL4015"
+		(at 7.62 -8.12 0)
+		(layer "F.Fab")
+		(uuid "ad1c3fe6-055b-49a3-85c2-757d489c52e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "287890d4-e226-41fe-9da4-8097fdec40db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d57b70d-cb0e-4cba-b282-1d76c279cde6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6dce69a0-73dd-4589-a835-03afce326842")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.6 -4.7)
+		(end 1.6 -0.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46cc47c4-6883-4a92-9713-216f33051f45")
+	)
+	(fp_line
+		(start 1.6 -4.7)
+		(end 5.9 -4.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b629c7a1-0ae5-419c-93a0-30b725f03638")
+	)
+	(fp_line
+		(start 1.6 -0.4)
+		(end 5.9 -0.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7abb91b5-ada3-4f40-9ca4-a3158659266f")
+	)
+	(fp_line
+		(start 5.9 -4.7)
+		(end 5.9 -0.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "42240f67-0363-49c5-bc83-b224215342b5")
+	)
+	(pad "1" smd rect
+		(at 2.54 -2.54)
+		(size 0.98 3.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4c01b2c1-e8a3-4758-b186-b78cc36c846b")
+	)
+	(pad "2" smd rect
+		(at 4.91 -2.54)
+		(size 0.98 3.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "45b4b337-1b51-4917-84f1-f367d594f61c")
+	)
+)

@@ -179,6 +179,7 @@
       ],
       "track_widths": [
         0.0,
+        0.25,
         0.3,
         0.5
       ],
@@ -483,7 +484,7 @@
       "netlist": "",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "C:/Users/nazo/Downloads/pcb_R.dsn",
       "step": "pcb_R.step",
       "svg": "",
       "vrml": ""
@@ -613,7 +614,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "Spice",
     "ngspice": {
       "fix_include_paths": true,
       "meta": {

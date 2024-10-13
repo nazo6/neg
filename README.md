@@ -163,3 +163,16 @@ TODO
 > [!NOTE]
 >
 > 5V昇圧有効時と無効時ではLED電源切り替えスイッチの極性が反転します。
+
+## Credits
+
+### Kicad footprints
+
+- Coilcraft-XFL4015:
+  https://github.com/langestefan/KicadUserLib/blob/4d527574816f844b78317e347f8b6275e13600b5/user-footprints/archived/Coilcraft-XFL4015.pretty/Coilcraft-XFL4015.kicad_mod
+- PAW3395: https://github.com/ufan/paw3395_pmw3361_breakout
+
+### Kicad symbols
+
+- SN74LVC4245A:
+  https://github.com/adamgreig/agg-kicad/blob/447d20446f988afb3f98268279327dad41de4532/lib/ic/logic/sn74lvc4245a.kicad_sym
