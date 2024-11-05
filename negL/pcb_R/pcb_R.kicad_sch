@@ -6034,6 +6034,12 @@
 		(uuid "0b18869b-b513-4d80-aa7b-6c510f0631f9")
 	)
 	(junction
+		(at 203.2 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b7e1994-068e-45ef-88f8-58c6f8873ee7")
+	)
+	(junction
 		(at 144.78 265.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7485,6 +7491,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 114.3) (xy 218.44 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "282a5a54-3ffe-4b8f-9923-ed434606077e")
+	)
+	(wire
+		(pts
 			(xy 375.92 128.27) (xy 375.92 110.49)
 		)
 		(stroke
@@ -8475,6 +8491,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 114.3) (xy 218.44 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677b90ae-5ec7-4413-9357-48d3e7a6f680")
+	)
+	(wire
+		(pts
 			(xy 69.85 224.79) (xy 60.96 224.79)
 		)
 		(stroke
@@ -8622,6 +8648,16 @@
 			(type default)
 		)
 		(uuid "6ca594a9-d841-43f6-aad0-0318d93a12bc")
+	)
+	(wire
+		(pts
+			(xy 218.44 100.33) (xy 203.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d841ffc-7df2-4b69-87e6-20a2ed4329b6")
 	)
 	(wire
 		(pts
@@ -16809,72 +16845,6 @@
 			(project ""
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 204.47 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b0d07ee-ef15-4a79-bbc8-4638bc4c3bb4")
-		(property "Reference" "#PWR037"
-			(at 204.47 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9e5275a-568b-4864-8f60-ad43a0ea68a0")
-		)
-		(instances
-			(project ""
-				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
