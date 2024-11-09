@@ -1,0 +1,111 @@
+(footprint "M1.7_bottom"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7dcde129-e203-4d6b-addc-f0a5da6fe742")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "M1.7_bottom"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5b05fe8e-93d8-4079-b58c-59083ffd196a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd493379-96c8-459d-88ad-abcc940bd8e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53aebf47-2c49-41ab-9e69-7ef8c34be7df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "ケース用/トラボM1.7ネジ 貫通"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af731813-19f4-4274-ab26-9b280646dbc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 2 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "d6a28a19-7ef3-4c8a-b62b-679acf81b624")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.1 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e82b5d5b-09e1-4c9c-ad7f-8955bdd52020")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9107ca09-da03-450a-9c4d-f9ce38dec841")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2.8 2.8)
+		(drill 2.8)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "78ca38e9-38c5-4439-8d5b-11459ad68f9f")
+	)
+)
