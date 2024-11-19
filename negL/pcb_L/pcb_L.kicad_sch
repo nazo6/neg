@@ -5750,7 +5750,7 @@
 		(uuid "0b18869b-b513-4d80-aa7b-6c510f0631f9")
 	)
 	(junction
-		(at 203.2 100.33)
+		(at 196.85 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b7e1994-068e-45ef-88f8-58c6f8873ee7")
@@ -5814,6 +5814,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bae4cf8-a324-4206-b58b-1be8439caee1")
+	)
+	(junction
+		(at 58.42 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bf74dd8-7989-4699-84da-c3c25f9b2503")
 	)
 	(junction
 		(at 388.62 60.96)
@@ -6002,6 +6008,12 @@
 		(uuid "46111f7e-3619-4014-98f2-99778a8b368e")
 	)
 	(junction
+		(at 52.07 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "475a276f-7fa4-4489-95bf-f3b3de6508fb")
+	)
+	(junction
 		(at 378.46 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6068,10 +6080,10 @@
 		(uuid "6a47a312-28fc-44b9-9782-74e8978536e1")
 	)
 	(junction
-		(at 184.15 107.95)
+		(at 196.85 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6b0b03ee-fafa-495b-ae2f-cf03bf4ffb9a")
+		(uuid "6b812f01-02c5-4c1e-aec5-dcb09b1b0650")
 	)
 	(junction
 		(at 261.62 53.34)
@@ -6152,7 +6164,7 @@
 		(uuid "804fd12d-1196-43f9-b8aa-2a57b4511c71")
 	)
 	(junction
-		(at 40.64 156.21)
+		(at 64.77 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82c62667-2a9e-432b-8c2e-c501750d5ed5")
@@ -6326,7 +6338,7 @@
 		(uuid "a5aca53b-fb60-495b-b781-6ec72a3bda9b")
 	)
 	(junction
-		(at 39.37 158.75)
+		(at 63.5 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab6e7af8-f4d0-4c2f-8f6c-108588106a45")
@@ -6554,12 +6566,6 @@
 		(uuid "ebc892db-a982-4617-b2a1-79ed046a1030")
 	)
 	(junction
-		(at 203.2 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f07a9fef-8373-4d1e-9e15-76dfa900323c")
-	)
-	(junction
 		(at 151.13 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6630,6 +6636,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff9b335c-002b-45f9-aae3-d7449449b9a1")
+	)
+	(no_connect
+		(at 36.83 76.2)
+		(uuid "28c26340-70b5-4e08-b606-b98c8cecde18")
 	)
 	(no_connect
 		(at 337.82 95.25)
@@ -6814,6 +6824,16 @@
 			(type default)
 		)
 		(uuid "08df5097-6760-46c8-a137-c6c5bbc515d7")
+	)
+	(wire
+		(pts
+			(xy 52.07 134.62) (xy 52.07 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09dca9f4-b929-447a-97d9-acaa2d540c67")
 	)
 	(wire
 		(pts
@@ -7067,6 +7087,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 158.75) (xy 63.5 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1678b905-e36e-4cd9-bf80-15036d8e4289")
+	)
+	(wire
+		(pts
 			(xy 226.06 63.5) (xy 241.3 63.5)
 		)
 		(stroke
@@ -7094,6 +7124,16 @@
 			(type default)
 		)
 		(uuid "19260103-1ae1-4cd0-b417-535d1943d353")
+	)
+	(wire
+		(pts
+			(xy 196.85 78.74) (xy 241.3 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1982dcbb-9ff6-4d25-9477-857b6639277b")
 	)
 	(wire
 		(pts
@@ -7197,7 +7237,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 156.21) (xy 40.64 156.21)
+			(xy 33.02 156.21) (xy 52.07 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7247,7 +7287,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 111.76) (xy 184.15 111.76)
+			(xy 187.96 111.76) (xy 182.88 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7287,6 +7327,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 144.78) (xy 52.07 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "276e7c46-8649-41d9-99f5-1b8474deaf77")
+	)
+	(wire
+		(pts
 			(xy 245.11 256.54) (xy 245.11 264.16)
 		)
 		(stroke
@@ -7297,7 +7347,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 114.3) (xy 218.44 114.3)
+			(xy 198.12 114.3) (xy 212.09 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7327,7 +7377,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 111.76) (xy 184.15 107.95)
+			(xy 182.88 111.76) (xy 182.88 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7487,7 +7537,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 158.75) (xy 44.45 158.75)
+			(xy 63.5 158.75) (xy 68.58 158.75)
 		)
 		(stroke
 			(width 0)
@@ -7667,6 +7717,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 134.62) (xy 58.42 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d7ddfa2-46e8-43f2-b74b-4b4dc83d1cd6")
+	)
+	(wire
+		(pts
 			(xy 44.45 247.65) (xy 44.45 265.43)
 		)
 		(stroke
@@ -7787,6 +7847,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 153.67) (xy 52.07 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47993922-1cbc-475b-a40b-96b53eb13ee0")
+	)
+	(wire
+		(pts
 			(xy 46.99 237.49) (xy 44.45 237.49)
 		)
 		(stroke
@@ -7794,6 +7864,16 @@
 			(type default)
 		)
 		(uuid "48001203-125a-426c-8f56-ef2419f2c3c1")
+	)
+	(wire
+		(pts
+			(xy 58.42 153.67) (xy 58.42 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4843f57b-dc93-447b-88d4-757a26f943c5")
 	)
 	(wire
 		(pts
@@ -7854,6 +7934,16 @@
 			(type default)
 		)
 		(uuid "4bd9af8d-dc1d-4c48-8b38-30a652fa23ce")
+	)
+	(wire
+		(pts
+			(xy 52.07 156.21) (xy 64.77 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c026695-c626-45af-9927-2b368ab70ca8")
 	)
 	(wire
 		(pts
@@ -7987,7 +8077,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 167.64) (xy 40.64 167.64)
+			(xy 68.58 167.64) (xy 64.77 167.64)
 		)
 		(stroke
 			(width 0)
@@ -8027,7 +8117,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 167.64) (xy 40.64 156.21)
+			(xy 64.77 167.64) (xy 64.77 156.21)
 		)
 		(stroke
 			(width 0)
@@ -8037,7 +8127,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 100.33) (xy 203.2 78.74)
+			(xy 196.85 100.33) (xy 196.85 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8047,7 +8137,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 156.21) (xy 44.45 156.21)
+			(xy 64.77 156.21) (xy 68.58 156.21)
 		)
 		(stroke
 			(width 0)
@@ -8257,7 +8347,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 158.75) (xy 39.37 158.75)
+			(xy 33.02 158.75) (xy 58.42 158.75)
 		)
 		(stroke
 			(width 0)
@@ -8277,7 +8367,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 114.3) (xy 218.44 100.33)
+			(xy 212.09 114.3) (xy 212.09 100.33)
 		)
 		(stroke
 			(width 0)
@@ -8314,6 +8404,16 @@
 			(type default)
 		)
 		(uuid "68d1fde3-47a2-4b3b-b9fc-98b2483f2b3c")
+	)
+	(wire
+		(pts
+			(xy 58.42 144.78) (xy 58.42 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6939a58e-e73c-4967-9a1a-0d8d46d0cad4")
 	)
 	(wire
 		(pts
@@ -8437,7 +8537,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 100.33) (xy 203.2 100.33)
+			(xy 212.09 100.33) (xy 196.85 100.33)
 		)
 		(stroke
 			(width 0)
@@ -8887,7 +8987,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 100.33) (xy 173.99 100.33)
+			(xy 168.91 100.33) (xy 177.8 100.33)
 		)
 		(stroke
 			(width 0)
@@ -9237,16 +9337,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 107.95) (xy 189.23 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9da0682c-03a5-4741-ad29-2eef3acfc676")
-	)
-	(wire
-		(pts
 			(xy 168.91 111.76) (xy 168.91 100.33)
 		)
 		(stroke
@@ -9264,16 +9354,6 @@
 			(type default)
 		)
 		(uuid "9e3efad7-814b-4c1b-9bcc-abf38b91943d")
-	)
-	(wire
-		(pts
-			(xy 137.16 153.67) (xy 137.16 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e4661b6-f4fc-4d5f-8c78-543ab4e8032f")
 	)
 	(wire
 		(pts
@@ -9827,7 +9907,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 170.18) (xy 39.37 170.18)
+			(xy 68.58 170.18) (xy 63.5 170.18)
 		)
 		(stroke
 			(width 0)
@@ -9867,16 +9947,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 78.74) (xy 241.3 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd1fb7b3-425c-48a1-b840-34691d3c7956")
-	)
-	(wire
-		(pts
 			(xy 368.3 60.96) (xy 368.3 77.47)
 		)
 		(stroke
@@ -9884,16 +9954,6 @@
 			(type default)
 		)
 		(uuid "cd2121cc-027b-4f89-9a2a-6adbbd75b2f8")
-	)
-	(wire
-		(pts
-			(xy 151.13 152.4) (xy 151.13 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce3ad536-e963-4d3b-9126-811b94402336")
 	)
 	(wire
 		(pts
@@ -9917,7 +9977,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 100.33) (xy 203.2 100.33)
+			(xy 187.96 100.33) (xy 196.85 100.33)
 		)
 		(stroke
 			(width 0)
@@ -9987,16 +10047,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 107.95) (xy 184.15 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8860b37-73a7-45e4-8d31-4492985b9783")
-	)
-	(wire
-		(pts
 			(xy 434.34 110.49) (xy 439.42 110.49)
 		)
 		(stroke
@@ -10057,7 +10107,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 170.18) (xy 39.37 158.75)
+			(xy 63.5 170.18) (xy 63.5 158.75)
 		)
 		(stroke
 			(width 0)
@@ -10357,7 +10407,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 78.74) (xy 203.2 78.74)
+			(xy 161.29 78.74) (xy 196.85 78.74)
 		)
 		(stroke
 			(width 0)
@@ -10680,8 +10730,8 @@
 		(uuid a62d4b3a-7a16-4350-bf0b-2db6d3e167ab)
 	)
 	(rectangle
-		(start 16.51 137.16)
-		(end 64.77 176.53)
+		(start 16.51 121.92)
+		(end 99.06 185.42)
 		(stroke
 			(width 0)
 			(type default)
@@ -10893,7 +10943,7 @@
 	)
 	(global_label "DATA_RX"
 		(shape input)
-		(at 52.07 170.18 0)
+		(at 76.2 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10903,7 +10953,7 @@
 		)
 		(uuid "16b66580-867c-4f8b-af61-15a39d5fd5e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.7475 170.18 0)
+			(at 84.8775 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11047,7 +11097,7 @@
 	)
 	(global_label "DATA_TX"
 		(shape input)
-		(at 52.07 167.64 0)
+		(at 76.2 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11057,7 +11107,7 @@
 		)
 		(uuid "2dcce617-0a8b-43fc-a7b4-377752dfe129")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.5056 167.64 0)
+			(at 84.6356 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11619,7 +11669,7 @@
 	)
 	(global_label "BAT+"
 		(shape input)
-		(at 204.47 109.22 0)
+		(at 198.12 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11629,7 +11679,7 @@
 		)
 		(uuid "9badedf6-d97a-4b3f-829c-5cb5baea4853")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.3538 109.22 0)
+			(at 206.0038 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11817,7 +11867,7 @@
 	)
 	(global_label "DATA_RX"
 		(shape input)
-		(at 52.07 156.21 0)
+		(at 76.2 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11827,56 +11877,12 @@
 		)
 		(uuid "b68bb84a-788a-4add-b377-49b812b7bfa3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.7475 156.21 0)
+			(at 84.8775 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DISP_SCL"
-		(shape input)
-		(at 151.13 153.67 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "c9e235b8-7140-46a6-891f-faed5df8b485")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 163.1215 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DISP_SDA"
-		(shape input)
-		(at 137.16 153.67 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "cd90e261-3cfa-4540-ad7a-e3312c7014d8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 164.0589 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -12125,7 +12131,7 @@
 	)
 	(global_label "DATA_TX"
 		(shape input)
-		(at 52.07 158.75 0)
+		(at 76.2 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12135,7 +12141,7 @@
 		)
 		(uuid "f1c6cd12-a003-4abd-837f-28bbd75ab18e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.5056 158.75 0)
+			(at 84.6356 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12214,6 +12220,15 @@
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
 			(at 133.35 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 143.764 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12397,6 +12412,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 407.162 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63bafb36-fb04-49ee-a195-7e1ab088fe4a")
 		)
@@ -12516,6 +12540,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C6881375"
+			(at 207.01 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "1d1468e5-f906-42e2-bffd-fdc6a32e084d")
 		)
@@ -12599,6 +12632,15 @@
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
 			(at 375.92 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2803348"
+			(at 375.412 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12734,6 +12776,15 @@
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
 			(at 375.92 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2803348"
+			(at 378.714 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12894,6 +12945,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 431.8 145.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "154e7e3c-4ae5-4791-8785-06de0e1ec894")
 		)
@@ -12974,6 +13034,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 403.86 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 407.162 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13184,6 +13253,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 71.374 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2208efcd-625a-4f2b-919c-f74ac7d777a1")
 		)
@@ -13325,6 +13403,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2803348"
+			(at 385.572 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4ee93743-171f-4eea-8e40-0303547ddfd5")
 		)
@@ -13387,6 +13474,15 @@
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
 			(at 109.22 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 119.634 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13553,6 +13649,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 397.002 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63699d90-28d8-4f3b-a7bb-8955300819a0")
 		)
@@ -13687,6 +13792,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2803348"
+			(at 405.892 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "695f4b18-6ad3-4a73-b15b-c38c8cf964e6")
 		)
@@ -13767,6 +13881,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 363.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 366.522 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13910,6 +14033,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 408.94 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b7009be-e765-4cea-bfec-9f8c442fb5d3")
 		)
@@ -14037,6 +14169,15 @@
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
 			(at 85.09 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 95.504 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14184,6 +14325,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2803348"
+			(at 368.554 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3aea5cd6-bcff-4c03-bf0e-7a36f304225a")
 		)
@@ -14246,6 +14396,15 @@
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
 			(at 396.24 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2803348"
+			(at 399.034 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14322,6 +14481,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 71.374 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e486ca2-e186-4eeb-9902-10297915dc4b")
 		)
@@ -14390,6 +14558,15 @@
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
 			(at 157.48 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 167.894 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14490,6 +14667,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 397.002 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d62ce227-528e-40bb-b434-4eb7fabc98b3")
 		)
@@ -14559,6 +14745,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 47.244 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "766c5e3a-a399-4019-b7f2-fccf33dee018")
 		)
@@ -14581,6 +14776,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 52.07 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a1085d8-404c-4fe8-8284-c242e5b19f49")
+		(property "Reference" "#PWR012"
+			(at 52.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 52.07 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 52.07 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4963b618-1f67-438e-91c6-2b0ecd179cc3")
+		)
+		(instances
+			(project "pcb_L"
+				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 332.74 251.46 0)
 		(unit 1)
@@ -14597,7 +14858,7 @@
 				)
 			)
 		)
-		(property "Value" "XAL4020-102MEC"
+		(property "Value" "XFL4015-471MEB"
 			(at 343.9595 251.0249 0)
 			(effects
 				(font
@@ -14623,7 +14884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uH"
+		(property "Description" "0.47uH"
 			(at 341.4195 253.3109 0)
 			(effects
 				(font
@@ -14693,6 +14954,15 @@
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
 			(at 157.48 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 167.894 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14775,6 +15045,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 47.244 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5363b091-d170-4669-af79-257756d9f26f")
 		)
@@ -14843,6 +15122,15 @@
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
 			(at 60.96 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 71.374 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14925,6 +15213,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 119.634 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cdd1a085-984f-4902-9fd1-e89fc1281587")
 		)
@@ -14947,74 +15244,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 151.13 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3416aa76-feb2-49aa-9ae0-8a23e394dc7b")
-		(property "Reference" "#PWR020"
-			(at 151.13 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 151.13 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 151.13 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "04628a9a-6316-4d48-9277-93bcc6b73125")
-		)
-		(instances
-			(project ""
-				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 48.26 167.64 0)
+		(at 72.39 167.64 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -15022,7 +15253,7 @@
 		(dnp no)
 		(uuid "351ba075-c6c6-4359-8093-ede321ebb8a8")
 		(property "Reference" "JP9"
-			(at 48.26 164.846 0)
+			(at 72.39 164.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15030,7 +15261,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 48.514 172.72 0)
+			(at 72.644 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15038,7 +15269,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 48.26 167.64 0)
+			(at 72.39 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15047,7 +15278,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 167.64 0)
+			(at 72.39 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15056,7 +15287,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper to enable direct battery output (Assuming use of 14500 batteries)"
-			(at 48.26 167.64 0)
+			(at 72.39 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15133,6 +15364,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2803348"
+			(at 365.252 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7fafe720-9f39-426b-9f58-5d88e7b859dc")
 		)
@@ -15202,6 +15442,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2803348"
+			(at 405.892 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cdeb8776-f38a-46af-a776-a0de45dec29c")
 		)
@@ -15264,6 +15513,15 @@
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 416.56 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5333465"
+			(at 419.1 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15408,6 +15666,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2803348"
+			(at 375.412 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a63fda3d-6d0b-47fd-8005-46e5c94b8e09")
 		)
@@ -15495,6 +15762,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 386.842 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6327962-d790-43fe-b5a2-b69f986f7d31")
 		)
@@ -15557,6 +15833,15 @@
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
 			(at 386.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2803348"
+			(at 385.572 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15868,6 +16153,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 407.162 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6e35fdf3-a247-42a4-9d57-1d791a5bc0b9")
 		)
@@ -15948,6 +16242,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 363.22 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 366.522 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16087,6 +16390,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C22935"
+			(at 249.428 267.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16234,6 +16546,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C19702"
+			(at 178.816 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16531,6 +16852,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 417.322 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fbd10415-efc5-4500-add5-b56205b4e4e7")
 		)
@@ -16593,6 +16923,15 @@
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
 			(at 85.09 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 95.504 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16842,6 +17181,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 366.522 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "72181f23-a72d-49a9-bf73-1ff5be0da474")
 		)
@@ -16852,72 +17200,6 @@
 			(project "pcb_R"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
 					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 137.16 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "553176df-5eb1-4d4d-bc79-58cb4d5fee60")
-		(property "Reference" "#PWR015"
-			(at 137.16 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 137.16 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 137.16 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd3735df-9b53-45fb-b1df-ca70a5502991")
-		)
-		(instances
-			(project ""
-				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -17043,6 +17325,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2803348"
+			(at 388.874 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4bb6f75c-fced-4f35-9e66-c772122aae4c")
 		)
@@ -17053,76 +17344,6 @@
 			(project "pcb_L"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
 					(reference "MX27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 151.13 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6115449a-991c-4d91-a6dc-41b86647a999")
-		(property "Reference" "R7"
-			(at 153.67 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0603WAF4701T5E"
-			(at 153.67 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 149.352 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23889-0603WAF4701T5E/C23162"
-			(at 151.13 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor 4.8K"
-			(at 151.13 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7dfd7c5f-2a53-40d7-84e3-d3256d7154cc")
-		)
-		(pin "1"
-			(uuid "d4b5293e-f961-41a3-b7bc-35d2f0960b50")
-		)
-		(instances
-			(project ""
-				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -17332,6 +17553,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 417.322 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce17dd17-42da-4241-9fb8-f9002501bbe3")
 		)
@@ -17398,6 +17628,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C25803"
+			(at 243.84 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17480,6 +17719,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 393.7 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 397.002 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17571,7 +17819,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 199.39 111.76 0)
+		(at 193.04 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -17579,7 +17827,7 @@
 		(dnp no)
 		(uuid "701b2230-e792-4206-9468-9ebd3c37ecf5")
 		(property "Reference" "SW3"
-			(at 199.39 102.87 0)
+			(at 193.04 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17587,7 +17835,7 @@
 			)
 		)
 		(property "Value" "SS-12D00G3"
-			(at 199.39 105.41 0)
+			(at 193.04 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17595,7 +17843,7 @@
 			)
 		)
 		(property "Footprint" "neg_footprints:SS-12D00G3"
-			(at 199.39 111.76 0)
+			(at 193.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17604,7 +17852,7 @@
 			)
 		)
 		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/AKIZUKI-SS-12D00G3.pdf"
-			(at 199.39 119.38 0)
+			(at 193.04 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17613,7 +17861,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 199.39 111.76 0)
+			(at 193.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17686,6 +17934,15 @@
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
 			(at 60.96 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 71.374 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17786,6 +18043,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 366.522 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4e41643e-ce24-4864-87ae-e8e0bfc9840d")
 		)
@@ -17796,73 +18062,6 @@
 			(project "pcb_R"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
 					(reference "D33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 137.16 148.59 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "742c0227-65da-4212-8828-8d3cffca4d80")
-		(property "Reference" "JP17"
-			(at 133.096 147.574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 132.08 148.336 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 137.16 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "sda pullup"
-			(at 130.302 149.352 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4d215c30-9a8b-4c29-8d21-8994165127f3")
-		)
-		(pin "1"
-			(uuid "2799a26e-4567-48c6-8f45-722f7f2881e7")
-		)
-		(instances
-			(project "pcb_R"
-				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "JP17")
 					(unit 1)
 				)
 			)
@@ -18071,6 +18270,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 167.894 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c06461c5-d863-4a54-b00f-632e9e6b9dbc")
 		)
@@ -18204,6 +18412,15 @@
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
 			(at 181.61 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 192.024 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18354,6 +18571,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 47.244 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "705af666-9126-46fb-8437-8ef6ba999ba0")
 		)
@@ -18440,6 +18666,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 431.8 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 435.102 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18608,6 +18843,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 386.842 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ede95a95-c1c8-4b5e-80f3-5110fb1813b7")
 		)
@@ -18691,7 +18935,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 48.26 158.75 0)
+		(at 72.39 158.75 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -18699,7 +18943,7 @@
 		(dnp no)
 		(uuid "7e0cd176-2e42-48a7-b66b-c3d11924f340")
 		(property "Reference" "JP8"
-			(at 48.514 161.29 0)
+			(at 72.644 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18707,7 +18951,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 48.514 163.83 0)
+			(at 72.644 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18715,7 +18959,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 48.26 158.75 0)
+			(at 72.39 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18724,7 +18968,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 158.75 0)
+			(at 72.39 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18733,7 +18977,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper to enable direct battery output (Assuming use of 14500 batteries)"
-			(at 48.26 158.75 0)
+			(at 72.39 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18810,6 +19054,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2803348"
+			(at 365.252 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "39c5a101-e469-410a-b8eb-f2daadc01800")
 		)
@@ -18872,6 +19125,15 @@
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
 			(at 133.35 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 143.764 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19038,6 +19300,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 407.162 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02300937-e7aa-4682-a2b3-1990ff5fc060")
 		)
@@ -19166,6 +19437,15 @@
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
 			(at 416.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2803348"
+			(at 416.052 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19309,6 +19589,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 119.634 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7d6cafab-7785-4a1b-b12b-f8fce90ec11a")
 		)
@@ -19332,7 +19621,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 48.26 170.18 0)
+		(at 72.39 170.18 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -19340,7 +19629,7 @@
 		(dnp no)
 		(uuid "87e3475b-3f08-4385-9552-421d89759711")
 		(property "Reference" "JP10"
-			(at 48.514 173.482 0)
+			(at 72.644 173.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19348,7 +19637,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 48.514 175.26 0)
+			(at 72.644 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19356,7 +19645,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 48.26 170.18 0)
+			(at 72.39 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19365,7 +19654,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 170.18 0)
+			(at 72.39 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19374,7 +19663,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper to enable direct battery output (Assuming use of 14500 batteries)"
-			(at 48.26 170.18 0)
+			(at 72.39 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19540,6 +19829,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 386.842 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ed89bcf-4d11-4665-b451-25182402a532")
 		)
@@ -19620,6 +19918,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 373.38 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 376.682 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19763,6 +20070,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2803348"
+			(at 365.252 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "048ce789-89ba-4e61-ab7f-d552b9ef5cd8")
 		)
@@ -19825,6 +20141,15 @@
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
 			(at 109.22 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 119.634 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19907,6 +20232,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 71.374 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff02a5b6-24be-4a6b-8f00-2ddfc1d7468b")
 		)
@@ -19982,6 +20316,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2803348"
+			(at 416.052 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dacde14f-d2da-4684-9a47-e7369ce10a71")
 		)
@@ -19992,6 +20335,76 @@
 			(project "pcb_R"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
 					(reference "MX20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93b3ad9b-94ad-4a6f-84ec-28758aebc9c9")
+		(property "Reference" "R7"
+			(at 60.96 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0603WAF4701T5E"
+			(at 60.96 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 56.642 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23889-0603WAF4701T5E/C23162"
+			(at 58.42 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 4.8K"
+			(at 58.42 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "425f5310-f4d0-4fbc-acd6-887b8d221a9c")
+		)
+		(pin "1"
+			(uuid "24ab24fd-e8d0-44b4-a0ac-6e2836fb3d4a")
+		)
+		(instances
+			(project "pcb_L"
+				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -20183,6 +20596,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2803348"
+			(at 365.252 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4e35b3d3-6494-4667-94c2-008ded3a28d4")
 		)
@@ -20252,6 +20674,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2803348"
+			(at 395.732 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e1025fdb-8c6b-4ede-a6b4-49d189147d1e")
 		)
@@ -20262,6 +20693,72 @@
 			(project "pcb_R"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
 					(reference "MX3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 58.42 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9912785a-5ebc-4778-b4ab-b8a09a37001b")
+		(property "Reference" "#PWR015"
+			(at 58.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 58.42 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 58.42 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2395ba32-d1ea-446b-9f96-df4262b8d8c0")
+		)
+		(instances
+			(project "pcb_L"
+				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -20314,6 +20811,15 @@
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
 			(at 157.48 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 167.894 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20831,6 +21337,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 397.002 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f17a0fbe-f29d-4545-9f86-baa837ef90e2")
 		)
@@ -20983,6 +21498,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 427.482 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d666573-dd36-4f75-af62-96cf61f6bd7f")
 		)
@@ -21045,6 +21569,15 @@
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
 			(at 85.09 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 95.504 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21138,6 +21671,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 414.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 417.322 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21347,6 +21889,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 192.024 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6f300964-aff8-4486-b2cb-95c4db67b7f2")
 		)
@@ -21370,7 +21921,7 @@
 	)
 	(symbol
 		(lib_id "neg_symbols:DMN1008UFDF")
-		(at 189.23 102.87 90)
+		(at 182.88 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21378,7 +21929,7 @@
 		(dnp no)
 		(uuid "ace99199-5e68-4a7f-a8c1-5a4dbd254fc7")
 		(property "Reference" "Q2"
-			(at 189.23 93.98 90)
+			(at 182.88 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21386,7 +21937,7 @@
 			)
 		)
 		(property "Value" "DMN1008UFDF-7"
-			(at 192.278 96.52 90)
+			(at 185.928 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21394,7 +21945,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN2020-6_Type-F"
-			(at 186.69 97.79 0)
+			(at 180.34 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21403,7 +21954,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN1008UFDF.pdf"
-			(at 189.23 102.87 0)
+			(at 182.88 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21412,7 +21963,7 @@
 			)
 		)
 		(property "Description" "DMN1008UFDF N-MOSFET"
-			(at 189.23 102.87 0)
+			(at 182.88 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21518,6 +22069,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 393.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 397.002 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21746,6 +22306,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 386.842 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ebac6d5-2388-4510-bc2f-ff487b7559b1")
 		)
@@ -21826,6 +22395,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 424.18 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 427.482 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21969,6 +22547,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5947"
+			(at 311.658 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "906abf3c-9e4d-495f-8066-cfec57a9d00f")
 		)
@@ -22080,6 +22667,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 143.764 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef834f05-baf6-436f-a925-b0157238d880")
 		)
@@ -22166,6 +22762,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 414.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 417.322 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22442,6 +23047,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 47.244 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0250ea66-8f97-4954-b8b9-a137909e96f4")
 		)
@@ -22528,6 +23142,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 373.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 376.682 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22669,6 +23292,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2803348"
+			(at 395.732 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a1685fcd-75e4-4f9a-9de3-6e258a3ecf2c")
 		)
@@ -22749,6 +23381,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 383.54 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 386.842 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22842,7 +23483,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 48.26 156.21 0)
+		(at 72.39 156.21 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -22850,7 +23491,7 @@
 		(dnp no)
 		(uuid "c44a13d6-e75c-48e6-8866-8136eaecc94c")
 		(property "Reference" "JP7"
-			(at 48.26 154.178 0)
+			(at 72.39 154.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22858,7 +23499,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 48.514 161.29 0)
+			(at 72.644 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22866,7 +23507,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 48.26 156.21 0)
+			(at 72.39 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22875,7 +23516,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 156.21 0)
+			(at 72.39 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22884,7 +23525,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper to enable direct battery output (Assuming use of 14500 batteries)"
-			(at 48.26 156.21 0)
+			(at 72.39 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23027,6 +23668,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 47.244 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4bd23743-5918-4223-8370-44949c942fe5")
 		)
@@ -23120,6 +23770,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 417.322 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "efb35ae3-df85-4238-ab2f-90a52489f1a6")
 		)
@@ -23182,6 +23841,15 @@
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
 			(at 426.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2803348"
+			(at 426.212 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23457,6 +24125,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2803348"
+			(at 416.052 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fe3c44ac-4c6b-4021-93c4-b5e82bf73f1f")
 		)
@@ -23658,6 +24335,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 143.764 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b4473cda-7300-456b-81e8-46e392f7a887")
 		)
@@ -23733,6 +24419,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2803348"
+			(at 375.412 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "074969bf-6b75-4444-96fb-286f3f4c9402")
 		)
@@ -23799,6 +24494,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C25810"
+			(at 243.84 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -23908,7 +24612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "neg_footprints:Coilcraft-XFL4015"
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_XxL4020"
 			(at 204.47 38.1 0)
 			(effects
 				(font
@@ -24021,6 +24725,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 376.682 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5aa447f-1bd2-4ccf-b0d5-4eb013c0a512")
 		)
@@ -24083,6 +24796,15 @@
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 426.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5333465"
+			(at 429.26 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24225,6 +24947,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 167.894 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "22114352-ddbd-4085-9890-30f0f41db4a5")
 		)
@@ -24293,6 +25024,15 @@
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
 			(at 386.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2803348"
+			(at 385.572 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24375,6 +25115,72 @@
 			(project "pcb_R"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
 					(reference "MT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 58.42 149.86 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "df12794a-920a-40e1-837d-e810f3cdb998")
+		(property "Reference" "JP18"
+			(at 62.484 148.844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 63.5 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 58.42 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "T pullup"
+			(at 65.278 150.622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a6ea931f-c5c2-4336-b45d-651851088077")
+		)
+		(pin "1"
+			(uuid "15895fdb-a7fb-4944-98c6-d666573f8380")
+		)
+		(instances
+			(project "pcb_L"
+				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
+					(reference "JP18")
 					(unit 1)
 				)
 			)
@@ -24567,6 +25373,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2803348"
+			(at 395.732 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "24f3e114-3bd2-47db-ae9c-030ba863c279")
 		)
@@ -24629,6 +25444,15 @@
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
 			(at 375.92 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2803348"
+			(at 375.412 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24705,6 +25529,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2803348"
+			(at 405.892 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "651aeb5c-ba70-40be-92d7-a2ff40c3c833")
 		)
@@ -24715,6 +25548,75 @@
 			(project "pcb_R"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
 					(reference "MX8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 52.07 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7da1fd8-843c-4b33-b6f4-f0608d009110")
+		(property "Reference" "R6"
+			(at 46.99 139.446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0603WAF4701T5E"
+			(at 33.528 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 50.292 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23889-0603WAF4701T5E/C23162"
+			(at 52.07 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 4.8K"
+			(at 52.07 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "479612f2-c175-4e11-baa0-066c624af2ca")
+		)
+		(pin "2"
+			(uuid "a1ce65e8-aae5-484a-9617-82cec6a19dd3")
+		)
+		(instances
+			(project "pcb_L"
+				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -24859,6 +25761,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 407.162 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4080c8eb-c3d2-4deb-8ce0-3e5095932c55")
 		)
@@ -24921,6 +25832,15 @@
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
 			(at 386.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2803348"
+			(at 385.572 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25065,6 +25985,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 119.634 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90d605ca-7a6c-4437-bf39-11f9a95bee78")
 		)
@@ -25081,6 +26010,73 @@
 			(project "mykb"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
 					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 52.07 149.86 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0e2985e-1822-40ed-982b-882ce6b47756")
+		(property "Reference" "JP17"
+			(at 48.006 148.844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 46.99 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 52.07 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "R1 pullup"
+			(at 45.212 150.622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d11ba9ae-8078-4eee-b144-297ad74d9758")
+		)
+		(pin "1"
+			(uuid "28e1c14e-c304-4371-9d98-d3a9d7e5b5c3")
+		)
+		(instances
+			(project "pcb_L"
+				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
+					(reference "JP17")
 					(unit 1)
 				)
 			)
@@ -25217,6 +26213,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 373.38 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 376.682 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25379,6 +26384,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 376.682 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f693bf68-fe84-4a78-984a-c9761b19f48f")
 		)
@@ -25389,92 +26403,6 @@
 			(project "pcb_R"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
 					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "neg_symbols:DMN1008UFDF")
-		(at 179.07 102.87 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f3baaaa2-a7aa-4b53-947a-8bfcfb4da405")
-		(property "Reference" "Q1"
-			(at 179.07 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DMN1008UFDF-7"
-			(at 177.038 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN2020-6_Type-F"
-			(at 181.61 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN1008UFDF.pdf"
-			(at 179.07 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DMN1008UFDF N-MOSFET"
-			(at 179.07 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "e39d5fa0-4193-44ca-9b03-83ca2d8f09cf")
-		)
-		(pin "2"
-			(uuid "89436392-c449-4d19-b0ce-04470c1a4baf")
-		)
-		(pin "3"
-			(uuid "11409bce-1b16-49ed-b140-32567c23b907")
-		)
-		(pin "5"
-			(uuid "e191ec10-8eaf-4deb-932f-97b0c1c25662")
-		)
-		(pin "6"
-			(uuid "fbc844ae-0596-479d-bf06-62266f66d348")
-		)
-		(pin "7"
-			(uuid "4a7cd259-56b9-4d2b-b1cf-a12a922af7ec")
-		)
-		(pin "1"
-			(uuid "17e72b15-7ac4-416b-9656-1be70d5c554f")
-		)
-		(pin "4"
-			(uuid "20ed1f09-9462-42cd-89d3-1126902f79ad")
-		)
-		(instances
-			(project "pcb_R"
-				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -25527,6 +26455,15 @@
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
 			(at 133.35 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 143.764 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25602,6 +26539,15 @@
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
 			(at 85.09 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 95.504 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25699,72 +26645,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 151.13 148.59 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "f68d21ea-311e-4259-84c0-df4e59395b91")
-		(property "Reference" "JP18"
-			(at 155.194 147.574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 156.21 148.336 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 151.13 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "scl pullup"
-			(at 157.988 149.352 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "075f255d-4233-476f-8d99-b01c0c48b4bb")
-		)
-		(pin "1"
-			(uuid "9a1d2eef-0518-4b42-916d-530a3c6fbdfe")
-		)
-		(instances
-			(project "pcb_R"
-				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "JP18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 396.24 63.5 0)
 		(mirror y)
@@ -25811,6 +26691,15 @@
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
 			(at 396.24 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2803348"
+			(at 395.732 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25902,75 +26791,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 137.16 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f91134e4-de92-4e4b-86cf-ec22a1589570")
-		(property "Reference" "R6"
-			(at 132.08 139.446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0603WAF4701T5E"
-			(at 118.618 142.748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 135.382 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23889-0603WAF4701T5E/C23162"
-			(at 137.16 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor 4.8K"
-			(at 137.16 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d6cae9b-bfdb-4449-adc9-aa122de70a99")
-		)
-		(pin "2"
-			(uuid "218768d4-d940-429f-a826-9f44868135b6")
-		)
-		(instances
-			(project ""
-				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 85.09 265.43 90)
 		(mirror x)
@@ -26017,6 +26837,15 @@
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
 			(at 85.09 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 95.504 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26160,6 +26989,15 @@
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
 			(at 416.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2803348"
+			(at 416.052 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26319,6 +27157,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 366.522 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9be353c1-97a4-44b4-9308-b56188054991")
 		)
@@ -26381,6 +27228,15 @@
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
 			(at 406.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2803348"
+			(at 405.892 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
