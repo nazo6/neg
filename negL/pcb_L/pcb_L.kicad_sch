@@ -6024,6 +6024,12 @@
 		(uuid "ebc892db-a982-4617-b2a1-79ed046a1030")
 	)
 	(junction
+		(at 143.51 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecafcce0-47e8-4398-9338-b8d2fc7ee6e3")
+	)
+	(junction
 		(at 151.13 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6052,6 +6058,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5840600-2aa4-4d60-84ff-30306405d33c")
+	)
+	(junction
+		(at 137.16 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7070528-0fe4-43a1-ae45-490aecb416b1")
 	)
 	(junction
 		(at 403.86 90.17)
@@ -6135,7 +6147,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 153.67) (xy 144.78 158.75)
+			(xy 167.64 153.67) (xy 167.64 160.02)
 		)
 		(stroke
 			(width 0)
@@ -6235,7 +6247,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 156.21) (xy 156.21 156.21)
+			(xy 128.27 157.48) (xy 165.1 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6272,6 +6284,16 @@
 			(type default)
 		)
 		(uuid "08df5097-6760-46c8-a137-c6c5bbc515d7")
+	)
+	(wire
+		(pts
+			(xy 429.26 142.24) (xy 429.26 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f60efb-dfc1-4917-858d-5592c9c4e377")
 	)
 	(wire
 		(pts
@@ -6665,6 +6687,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 162.56) (xy 137.16 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26fbb9e8-9c6b-4791-854e-63730e803cfb")
+	)
+	(wire
+		(pts
 			(xy 261.62 58.42) (xy 269.24 58.42)
 		)
 		(stroke
@@ -6792,6 +6824,16 @@
 			(type default)
 		)
 		(uuid "309cecba-6638-4787-a491-170d45fb601f")
+	)
+	(wire
+		(pts
+			(xy 137.16 135.89) (xy 137.16 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "315d557a-6961-4cd1-a95a-f4936d8c8ae4")
 	)
 	(wire
 		(pts
@@ -7485,6 +7527,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 165.1) (xy 143.51 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a9a30b-7e95-42b3-90b4-7ab1338ceced")
+	)
+	(wire
+		(pts
 			(xy 158.75 110.49) (xy 166.37 110.49)
 		)
 		(stroke
@@ -7905,6 +7957,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 162.56) (xy 148.59 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d287359-37c5-4b43-aafe-642cf53a40d8")
+	)
+	(wire
+		(pts
 			(xy 125.73 222.25) (xy 113.03 222.25)
 		)
 		(stroke
@@ -7942,16 +8004,6 @@
 			(type default)
 		)
 		(uuid "804e380f-425a-42d1-9e52-d6ca9431ec0c")
-	)
-	(wire
-		(pts
-			(xy 429.26 135.89) (xy 429.26 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80d2381b-a487-416f-b6e3-0e80c6067084")
 	)
 	(wire
 		(pts
@@ -8255,6 +8307,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 146.05) (xy 137.16 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9407d4b3-b9aa-4127-a386-357cdab0d328")
+	)
+	(wire
+		(pts
 			(xy 434.34 128.27) (xy 403.86 128.27)
 		)
 		(stroke
@@ -8322,6 +8384,16 @@
 			(type default)
 		)
 		(uuid "9850ad0b-a2b5-4627-8f8e-69aff1230a07")
+	)
+	(wire
+		(pts
+			(xy 143.51 165.1) (xy 128.27 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "999ebf0b-a3ac-4445-a38d-a2b4bf1b974d")
 	)
 	(wire
 		(pts
@@ -8412,6 +8484,16 @@
 			(type default)
 		)
 		(uuid "9e3efad7-814b-4c1b-9bcc-abf38b91943d")
+	)
+	(wire
+		(pts
+			(xy 143.51 135.89) (xy 143.51 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e413292-4f6c-416b-8889-2562fb2ef727")
 	)
 	(wire
 		(pts
@@ -8512,6 +8594,16 @@
 			(type default)
 		)
 		(uuid "a25c4efd-add1-4431-a37a-132ba5b9eed1")
+	)
+	(wire
+		(pts
+			(xy 143.51 146.05) (xy 143.51 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28cdcdf-a13f-4b7a-b3ae-bf60011e33fd")
 	)
 	(wire
 		(pts
@@ -8845,7 +8937,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 158.75) (xy 144.78 158.75)
+			(xy 128.27 160.02) (xy 167.64 160.02)
 		)
 		(stroke
 			(width 0)
@@ -8912,6 +9004,16 @@
 			(type default)
 		)
 		(uuid "ca9866c2-f99f-445e-a485-7163ce908391")
+	)
+	(wire
+		(pts
+			(xy 143.51 154.94) (xy 143.51 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cacae004-302a-40ce-b42e-591104b00893")
 	)
 	(wire
 		(pts
@@ -9045,7 +9147,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 156.21) (xy 156.21 161.29)
+			(xy 165.1 157.48) (xy 165.1 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9602,6 +9704,16 @@
 			(type default)
 		)
 		(uuid "ff110d36-89c3-4376-89bf-52da7b612656")
+	)
+	(wire
+		(pts
+			(xy 137.16 154.94) (xy 137.16 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff3d03f7-0cd1-4121-bcb1-c1f485025f8a")
 	)
 	(rectangle
 		(start 104.14 21.59)
@@ -10737,7 +10849,7 @@
 	)
 	(global_label "DISP_SCL"
 		(shape input)
-		(at 139.7 161.29 0)
+		(at 148.59 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10747,7 +10859,7 @@
 		)
 		(uuid "a81c9886-aff7-4b0d-9d9b-681d73e01b36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.5147 161.29 0)
+			(at 160.4047 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10979,7 +11091,7 @@
 	)
 	(global_label "DISP_SDA"
 		(shape bidirectional)
-		(at 139.7 163.83 0)
+		(at 148.59 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10989,7 +11101,7 @@
 		)
 		(uuid "dfc42893-a973-4b30-8daa-20d145fce2bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.0889 163.83 0)
+			(at 158.9789 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11471,7 +11583,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07878c07-8db6-492d-98ab-44b7f9e466f3")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 207.01 68.326 0)
 			(effects
 				(font
@@ -11632,7 +11744,7 @@
 		(instances
 			(project "pcb_R"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -11745,7 +11857,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 144.78 153.67 0)
+		(at 167.64 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11754,7 +11866,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a3fbc7b-668e-4f8e-afe3-e2b829ed9392")
 		(property "Reference" "#PWR017"
-			(at 144.78 157.48 0)
+			(at 167.64 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11763,7 +11875,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 144.78 148.59 0)
+			(at 167.64 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11771,7 +11883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 153.67 0)
+			(at 167.64 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11780,7 +11892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 153.67 0)
+			(at 167.64 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11789,7 +11901,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 144.78 153.67 0)
+			(at 167.64 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12340,7 +12452,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 161.29 0)
+		(at 165.1 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12349,7 +12461,7 @@
 		(fields_autoplaced yes)
 		(uuid "134c741d-453e-4664-ae8c-787df71af97f")
 		(property "Reference" "#PWR011"
-			(at 156.21 167.64 0)
+			(at 165.1 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12358,7 +12470,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 166.37 0)
+			(at 165.1 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12366,7 +12478,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 161.29 0)
+			(at 165.1 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12375,7 +12487,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 161.29 0)
+			(at 165.1 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12384,7 +12496,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 161.29 0)
+			(at 165.1 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13067,73 +13179,6 @@
 			(project "pcb_R"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
 					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 429.26 135.89 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19fd9fec-ac48-4d79-80e8-d459e0742280")
-		(property "Reference" "#PWR022"
-			(at 429.26 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 429.26 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 429.26 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 429.26 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 429.26 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51c82d80-ddf3-4956-84ff-dfa0275d8fd4")
-		)
-		(instances
-			(project "pcb_R"
-				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -13954,6 +13999,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 143.51 151.13 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2304fe85-b500-42e1-89f2-cfdc5e56d99d")
+		(property "Reference" "JP14"
+			(at 147.574 150.114 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 148.59 150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 143.51 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SDA pullup"
+			(at 150.368 151.892 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 143.51 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" ""
+			(at 143.51 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 143.51 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 143.51 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea148e6f-9cf5-44f2-837d-eb6bfcfa260e")
+		)
+		(pin "1"
+			(uuid "d58697e0-1d14-408e-8690-b302e4f2ea6e")
+		)
+		(instances
+			(project "pcb_L"
+				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
+					(reference "JP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 393.7 53.34 270)
 		(mirror x)
@@ -14470,6 +14617,109 @@
 			(project "mykb"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
 					(reference "LED28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 137.16 151.13 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "331c0877-28d0-4211-aff3-8de4de314d06")
+		(property "Reference" "JP13"
+			(at 133.096 150.114 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 132.08 150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 137.16 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SCL pullup"
+			(at 130.302 151.892 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 137.16 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" ""
+			(at 137.16 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 137.16 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 137.16 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b6a91728-262c-4b69-9fcc-2203df247a14")
+		)
+		(pin "1"
+			(uuid "8570ae28-eb3f-4048-9572-cca455cfc790")
+		)
+		(instances
+			(project "pcb_L"
+				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
+					(reference "JP13")
 					(unit 1)
 				)
 			)
@@ -15124,7 +15374,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39311252-a057-48b0-adc6-3cad2d8bcfc8")
-		(property "Reference" "JP14"
+		(property "Reference" "JP16"
 			(at 285.75 214.6299 90)
 			(effects
 				(font
@@ -15160,8 +15410,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED_VCC Direct"
-			(at 293.37 217.17 90)
+		(property "Description" "LED_VCC"
+			(at 290.068 217.424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15213,7 +15463,7 @@
 		(instances
 			(project "pcb_R"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "JP14")
+					(reference "JP16")
 					(unit 1)
 				)
 			)
@@ -16246,7 +16496,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 134.62 158.75 0)
+		(at 123.19 160.02 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16255,7 +16505,7 @@
 		(dnp no)
 		(uuid "4d23bf5e-03ba-40e9-bf6d-a7dd093c0fe9")
 		(property "Reference" "J2"
-			(at 132.08 158.7499 0)
+			(at 120.65 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16264,7 +16514,7 @@
 			)
 		)
 		(property "Value" "FH-1x4SG/RH"
-			(at 132.08 161.2899 0)
+			(at 120.65 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16273,7 +16523,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 134.62 158.75 0)
+			(at 123.19 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16282,7 +16532,7 @@
 			)
 		)
 		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/FH-1X00SGRH.pdf"
-			(at 134.62 158.75 0)
+			(at 123.19 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16291,7 +16541,7 @@
 			)
 		)
 		(property "Description" "6mm normal-profile pin socket"
-			(at 134.62 158.75 0)
+			(at 123.19 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16300,7 +16550,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" ""
-			(at 134.62 158.75 0)
+			(at 123.19 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16309,7 +16559,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 134.62 158.75 0)
+			(at 123.19 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16318,7 +16568,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 134.62 158.75 0)
+			(at 123.19 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16327,7 +16577,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 134.62 158.75 0)
+			(at 123.19 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16837,7 +17087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "541d466e-5a74-4fd2-8e76-ad9bb4243481")
-		(property "Reference" "U5"
+		(property "Reference" "U3"
 			(at 158.75 92.71 0)
 			(effects
 				(font
@@ -16937,7 +17187,7 @@
 		(instances
 			(project "pcb_R"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "U5")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -17061,6 +17311,112 @@
 			(project "pcb_R"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
 					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 143.51 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "582ab807-f69a-43ac-a420-e12fd9db928f")
+		(property "Reference" "R5"
+			(at 146.05 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0603WAF4701T5E"
+			(at 146.05 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 141.732 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23889-0603WAF4701T5E/C23162"
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 4.8K"
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" ""
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aca0b823-7fc1-486a-8b60-9955071c88e5")
+		)
+		(pin "1"
+			(uuid "d1989f23-483b-4505-b15c-f129b47c51b4")
+		)
+		(instances
+			(project "pcb_L"
+				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -17715,6 +18071,72 @@
 			(project "mykb"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 429.26 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cf280c2-3588-40ab-bd05-e39d18686faf")
+		(property "Reference" "#PWR022"
+			(at 429.26 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 429.26 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 429.26 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 429.26 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 429.26 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9346a56-89a1-4aab-af0b-1818bef2fd69")
+		)
+		(instances
+			(project ""
+				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -19134,6 +19556,111 @@
 			(project "pcb_L"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
 					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7dacffb1-c84c-4aa6-85f1-ad0555af3cc0")
+		(property "Reference" "R4"
+			(at 132.08 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0603WAF4701T5E"
+			(at 118.618 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 135.382 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23889-0603WAF4701T5E/C23162"
+			(at 137.16 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 4.8K"
+			(at 137.16 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 137.16 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" ""
+			(at 137.16 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 137.16 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 137.16 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3690c0b-6faf-4cb4-b18e-f09c77454c26")
+		)
+		(pin "2"
+			(uuid "340f6006-008f-4aa4-9d39-396c48d0d4ca")
+		)
+		(instances
+			(project "pcb_L"
+				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -21723,7 +22250,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b6b3f36-37d7-43e8-894c-91ba8e9efe85")
-		(property "Reference" "Q3"
+		(property "Reference" "Q2"
 			(at 286.512 250.19 0)
 			(effects
 				(font
@@ -21831,7 +22358,7 @@
 		(instances
 			(project ""
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "Q3")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -22808,7 +23335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ace99199-5e68-4a7f-a8c1-5a4dbd254fc7")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 182.88 93.98 90)
 			(effects
 				(font
@@ -22914,7 +23441,7 @@
 		(instances
 			(project ""
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -23140,6 +23667,72 @@
 			(project "pcb_R"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
 					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 143.51 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b16d12d3-6f1a-47e0-a629-cc13892a6454")
+		(property "Reference" "#PWR023"
+			(at 143.51 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 143.51 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 143.51 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f5a1bd2-a035-498c-9a85-9285325ef37c")
+		)
+		(instances
+			(project "pcb_L"
+				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -23467,7 +24060,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b47bf1a3-fcc5-46aa-9c4c-c8d1c9e690b0")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 311.658 62.738 0)
 			(effects
 				(font
@@ -23599,7 +24192,7 @@
 		(instances
 			(project ""
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -25991,7 +26584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d197aabe-bc1c-4375-b1c0-2465f3a0251c")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 204.47 33.02 90)
 			(effects
 				(font
@@ -26078,7 +26671,7 @@
 		(instances
 			(project "pcb_R"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -26595,6 +27188,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 137.16 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da6f0307-fcfd-481a-9577-5f178ff3e6c3")
+		(property "Reference" "#PWR020"
+			(at 137.16 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 137.16 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 137.16 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0738014-89e7-45dd-a54b-2661e5b4e687")
+		)
+		(instances
+			(project "pcb_L"
+				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 53.34 356.87 0)
 		(unit 1)
@@ -26704,7 +27363,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df12794a-920a-40e1-837d-e810f3cdb998")
-		(property "Reference" "JP18"
+		(property "Reference" "JP12"
 			(at 62.484 148.844 90)
 			(effects
 				(font
@@ -26791,7 +27450,7 @@
 		(instances
 			(project "pcb_L"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "JP18")
+					(reference "JP12")
 					(unit 1)
 				)
 			)
@@ -27328,7 +27987,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8bf2d4c-1572-4f7b-b350-e6ec21bf200f")
-		(property "Reference" "JP11"
+		(property "Reference" "JP15"
 			(at 184.912 256.794 0)
 			(effects
 				(font
@@ -27362,7 +28021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED signal direct (1)"
+		(property "Description" "LED signal"
 			(at 187.452 256.794 0)
 			(effects
 				(font
@@ -27415,7 +28074,7 @@
 		(instances
 			(project "pcb_R"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "JP11")
+					(reference "JP15")
 					(unit 1)
 				)
 			)
@@ -27874,7 +28533,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0e2985e-1822-40ed-982b-882ce6b47756")
-		(property "Reference" "JP17"
+		(property "Reference" "JP11"
 			(at 48.006 148.844 90)
 			(effects
 				(font
@@ -27961,7 +28620,7 @@
 		(instances
 			(project "pcb_L"
 				(path "/9ab7ca09-b2ea-4853-bd3f-96554febaf98"
-					(reference "JP17")
+					(reference "JP11")
 					(unit 1)
 				)
 			)
