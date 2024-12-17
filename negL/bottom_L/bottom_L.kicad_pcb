@@ -1,0 +1,2521 @@
+(kicad_pcb
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(31 "B.Cu" signal)
+		(32 "B.Adhes" user "B.Adhesive")
+		(33 "F.Adhes" user "F.Adhesive")
+		(34 "B.Paste" user)
+		(35 "F.Paste" user)
+		(36 "B.SilkS" user "B.Silkscreen")
+		(37 "F.SilkS" user "F.Silkscreen")
+		(38 "B.Mask" user)
+		(39 "F.Mask" user)
+		(40 "Dwgs.User" user "User.Drawings")
+		(41 "Cmts.User" user "User.Comments")
+		(42 "Eco1.User" user "User.Eco1")
+		(43 "Eco2.User" user "User.Eco2")
+		(44 "Edge.Cuts" user)
+		(45 "Margin" user)
+		(46 "B.CrtYd" user "B.Courtyard")
+		(47 "F.CrtYd" user "F.Courtyard")
+		(48 "B.Fab" user)
+		(49 "F.Fab" user)
+		(50 "User.1" user)
+		(51 "User.2" user)
+		(52 "User.3" user)
+		(53 "User.4" user)
+		(54 "User.5" user)
+		(55 "User.6" user)
+		(56 "User.7" user)
+		(57 "User.8" user)
+		(58 "User.9" user)
+	)
+	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(grid_origin 126.20625 33.3375)
+		(pcbplotparams
+			(layerselection 0x00010fc_ffffffff)
+			(plot_on_all_layers_selection 0x0000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(viasonmask no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plotreference yes)
+			(plotvalue yes)
+			(plotfptext yes)
+			(plotinvisibletext no)
+			(sketchpadsonfab no)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 0)
+			(scaleselection 1)
+			(outputdirectory "C:/Users/nazo/Downloads/")
+		)
+	)
+	(net 0 "")
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "06da1b60-d30f-483d-b94b-e3d4136acae4")
+		(at 152.23525 113.268125)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "MT10"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(uuid "5c8a47c2-4f53-40f8-9dc3-3638d5a6413a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "f0cc2992-9d2f-4e70-bd80-7bc2472a575b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e94db82e-020a-40dd-99b7-b870983eded6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6a1dafa-d0c2-4558-8ad8-ae1c4b62c974")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87ec664d-2176-4309-96fd-241967bb5ebc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ef930af-0094-49c0-b0c1-d184cf522fc5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc7edb80-ef93-469c-90e2-6b735988dda6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78be5eb2-8109-4bee-9a94-53c5a9d559d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "159493a3-6f0e-47e5-be5c-82c1a1a03a06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/1bff40fd-2245-41cb-b1c7-1abeda8fe92b")
+		(sheetname "ルート")
+		(sheetfile "pcb_L.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "fc56c705-e4b3-436a-9b0a-c8a55e8fe96a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "00f384ec-09fc-48dc-a83f-788128cfcf75")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a0e13b46-13ac-4071-a920-98cc6655e9e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "6db4a5d8-5679-4ce9-8c33-99561b0cf8d7")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "08fdcc8c-2f20-4c44-a17a-7ad1594629d9")
+		(at 179.619625 129.936875)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "MT4"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(uuid "1e5b541b-6933-4b4a-af33-8666b69e44fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "7100073b-41ca-42a1-b879-fef28238b213")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "375edc6d-7baa-46c2-8b65-74d19cbc7a4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "875d4c4e-69e2-4e47-9db7-fc200049ad3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e36fae1-f4bf-4dc6-bafa-4d083d2cdb7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d75557b-cd98-41d7-bec4-7eceb46ef685")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d8e2832-f8e5-4209-8378-9989d7a3aeea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5411810-72ed-47b0-850d-686b9c3f90a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09760ee3-9201-4d1c-8400-2fbb6a333892")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/b8dccd99-01b9-4110-a699-39a4f66630e3")
+		(sheetname "ルート")
+		(sheetfile "pcb_L.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "d0fb7d40-c3f9-4aae-8744-91c2593678eb")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "46bd1cca-0e78-4605-8db8-c5f7c2185641")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "e0a36936-ea74-466a-b95e-37880b907db6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "47808824-ff6e-4299-a26c-0833e92a139c")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "1396ee55-72d8-48ac-ac81-11bea4e90551")
+		(at 152.23525 53.736875)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "MT9"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(uuid "ac8a7e41-19e0-45fb-9102-8f78ab82e764")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "c16add9e-8d97-49f6-b02d-c327738c801d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1efe86af-8df3-4c34-a71a-5a159c914b9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce56b67f-f608-4a41-84a2-9f737092ccef")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3778a69-ce1b-471f-975b-00e5299d4369")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32b937bb-4197-4a15-a904-d726de9256bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5861254a-e870-42d1-8ea7-f4b963a9d313")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6ddd7ee-64f5-4d7a-b151-a68c55d759de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80989419-2f40-484a-a86e-30f87487be54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/e0a1a096-b793-4457-8817-d836ec550124")
+		(sheetname "ルート")
+		(sheetfile "pcb_L.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "f90a3dd5-26c2-44f5-9b48-fa821525db4d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "0046df3c-4235-45ac-9af6-f9f914bebeed")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f7100ffb-0cba-4621-a67b-5a5863c36a01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "2ec673a2-0e6c-4154-841e-ce4e1f3d4905")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "472f8b01-2cc5-41aa-a29c-6abcc09030d2")
+		(at 180.959486 49.944248)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "MT1"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(uuid "7838a027-2576-4f56-bca7-1e756fde12dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "c89259a6-f145-4336-adb9-6b98bf5ba68a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdddc3d3-377c-4542-814d-b51cea3562a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2e5bf62-0449-4b85-bb29-c8b09995484a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "042652bd-460d-4c2f-8746-a42a641c3f80")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d30a310-3b02-4183-ba29-320a3187f87b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f141c9f6-c2a3-4634-a4b1-702eef8faf4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "faa8155a-59bc-410b-bce2-7a944c5d8831")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f257ccd-3a3d-4669-9d69-d1cb3e5f4882")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/a3c0a698-20d2-4273-a796-a6b897433d37")
+		(sheetname "ルート")
+		(sheetfile "pcb_L.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "7472f385-c4f6-4901-a71d-d0efb092c93b")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "9d9cd2f3-32fc-48b8-979e-9ac6529f6274")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "64b21f13-d577-4347-989f-fc2cb84df8e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "a073fa30-b060-4569-b8e2-5f3600321275")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "58509e26-7161-4971-b745-7c565abcf448")
+		(at 193.907125 122.793125)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "MT5"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(uuid "d4f7a219-e19f-483c-be9b-535355adf325")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "85824d41-14e6-418b-90dd-4534b1b4300e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b49b3553-5db0-4431-b4cf-999dca1ec830")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c26f7646-0b1c-478c-8e91-75bd870db546")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92ccbbd9-1313-4cfd-87f9-2fbfd02a8979")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "613488f5-f5e1-44c1-808b-791695c138a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4926e4f7-dc32-443c-9bc8-c2419e5382f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f52f4c5-7af2-4b51-9d05-f8588d03bacc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecca20df-c716-4377-a851-ac23f60ae845")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/c2052d09-7f07-4cd4-844b-30ab04f2de8b")
+		(sheetname "ルート")
+		(sheetfile "pcb_L.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "2d2b7734-b0b2-44ab-8462-6adbd0971359")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "3e03dd12-a97b-4cc0-89d7-ae1e14294d8c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "5d23f791-96ac-423a-984a-fd0b3047ae01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "a8448c42-bfb3-4c46-a727-724ef9ed114a")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "6900139a-7262-46ce-95d7-3a76ad47a749")
+		(at 202.2415 131.1275)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "MT6"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(uuid "6e6e1098-93ec-4512-9fc3-31a94aa49c07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "258809ff-ff9a-47b0-9d53-d631e8c6243e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6002c6e-e9d6-416b-80d7-6c918ca2a031")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bcc924f-8712-43de-9634-2c556777e856")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b1ad51b-0a67-49ab-8af3-78bad7558fdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0797bca6-eb01-48ee-979a-0758538a3408")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "358279f4-1db6-4371-b739-c54f733046e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12af5492-56a7-4d1a-8e36-8115b4e90be6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2122d81-861a-4a52-b278-b8325f6350f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/a50e4ae4-6a57-46c5-896f-a7e06d735269")
+		(sheetname "ルート")
+		(sheetfile "pcb_L.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "589b4dc1-1a25-4271-af27-87221252484b")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "45a5d8c2-bb6e-4e11-a597-889a0f2f07f3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ed58457b-c88c-46bf-aa79-c373ab7985dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "fa4a490d-20ef-4356-8dd8-ec3863f2faf9")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "6ed62201-ed58-4bbb-bc7b-2b942dc4543e")
+		(at 188.07275 91.836875)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "MT3"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(uuid "4918779d-8efc-44b5-8e55-67c05251b1dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "95c74a4e-256a-4972-9ff1-a45e7bc3c475")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2f30022-e1ec-4c56-bde9-9a0ebd65ee20")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddc39a5d-a2a7-4f2f-92b8-37b35ae539c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2665769d-d45c-4345-82a8-24bb7f54115e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c58b8ef-92fc-4689-9a3e-ca97f512c766")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8aed469-3d93-482a-8d49-58233320375e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c73c65b7-ad5f-435f-9800-73cc58c0587d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a8929db-28cf-478f-8f96-54125e2424ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/dcb43848-2f5b-4905-b8ff-43a828ddd1bd")
+		(sheetname "ルート")
+		(sheetfile "pcb_L.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "797446c0-4828-4358-8c2d-da4002e6acb4")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "8bef7e02-8821-4eec-bfd5-b7b9ec48169f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "02c86f16-0762-4c7a-a476-646c797e5731")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "10167c54-d17b-4df0-bdbd-69b6e73e0e13")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "9a8f2e03-31a4-4317-9925-f1dea40355a0")
+		(at 114.13525 53.578125)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "MT7"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(uuid "be6d6f32-3a71-4ab0-9b38-53ae5a9c2473")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "0f9c0e93-c8c5-42f1-938c-4bffdf27bc82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0239c187-de97-46e8-902d-24392f11bcb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "510ba6bd-808f-4811-bae8-c48cea9bb9fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dde52325-46a4-472b-ae8f-0c4e2cd4fb1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5893f2d-2091-44ac-8442-9f76b2546e11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9406f5ae-1459-4159-99b1-1cae051cc281")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a0d648b-8e64-498a-9246-36b6710a5ea3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b7774a6-3ef8-4701-aa83-e26fa652c022")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/16b5cfa4-729c-4b37-aa0f-459160b4d51f")
+		(sheetname "ルート")
+		(sheetfile "pcb_L.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "ca69643b-d751-49b1-b794-626b14356274")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "206f451d-9ce4-4472-be01-cb4b2e8403c7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "add43cb8-1dd7-4cf3-8b2a-cd1553392fb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "8cc7b071-9f12-43bd-871b-3b2511be7655")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "a16a48fd-d344-4861-ae58-6884e0b0ce51")
+		(at 76.03525 58.499375)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "MT11"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(uuid "837f2e77-ab1c-4470-8eb8-2ff9f17c8b6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "5c5fec77-6a79-4eeb-91b0-e035cc56d399")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1224e22-41b1-4539-9c23-ad7b7d1cf5d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bdc315b-7284-4f8b-970d-9d6082f0a530")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "588fd2c2-616f-47b6-b136-1089664f0278")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d626a767-4da3-4ebc-aa95-c6198cac6fdb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9764ef66-1dbb-465f-a6a4-8ae1b61da99d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f2407b8-5d68-4ec6-a730-88e9d04db800")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e89567d7-a282-4225-be0d-77a65bacc01b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/75fdb5fb-aafd-4d61-91cc-7d1f3502386f")
+		(sheetname "ルート")
+		(sheetfile "pcb_L.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "0d9a3d7f-7c88-4ca7-a54b-7b69616ac0fb")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "21bf23db-442c-4819-bf31-b2bc8b5144d1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "3942b5c4-0357-4db0-8083-ec60eb787b84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "66196560-7789-4215-9977-b7744817bc30")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "d4e06cf1-df25-407f-a93c-74024a1e2cb2")
+		(at 76.03525 140.6525)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "MT12"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(uuid "ff428c33-2a57-43a6-ba2a-afd0e82ea2ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "7d628423-8133-4fb0-a3cf-fe67a565469b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b22beec1-ac75-4b48-b3aa-fede42ee9170")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99a4bf2d-6169-49aa-8c1d-8231ba6b093f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2353b571-6659-4665-a4cc-f01a4b208980")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9a715a6-33d4-4b91-82d6-852ee7b083f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "759cdc4a-841f-4dac-961e-ebb61705e326")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae00599a-c76f-4926-a173-560c0b54a5cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48d6ba03-4512-42d2-82bd-0b395a684dcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/95442a35-6dfb-4c8f-a6c3-ba8de3d2453d")
+		(sheetname "ルート")
+		(sheetfile "pcb_L.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "65167760-7ca6-4e3b-85dc-ef39a148d325")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "f045b105-51aa-4665-9827-94251eb05db5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c91d297a-c8e5-4da2-bcd4-66f45cf4919b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "4dabb154-7db3-4bb1-9239-f51c30a8b70c")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "deff59a1-4d39-4cec-9e6d-0d31e8da85a5")
+		(at 173.78525 91.836875)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "MT2"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(uuid "cf4900dd-5631-41e8-98e7-4d9fa997c24c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "e08a0c39-d75d-44ec-b9c2-1ec6a8a9d239")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9749f763-1863-4698-bfc3-1f36e2f9791f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "881c7138-6b36-43df-9109-e156334682f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb06aebb-8643-423b-ae02-458219ceedb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a0f8985-645f-4a32-91e0-fcdbccace040")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86721ba2-9a09-4a7b-bc6f-e55ae7c11fcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27a6b715-68b8-44c4-94b4-9afd6d9dd8af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59abeeb2-8ab7-4492-a417-e776fd4f3342")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/cc361b47-b712-4830-af59-2327f9d70f44")
+		(sheetname "ルート")
+		(sheetfile "pcb_L.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "d619c5ca-7c7a-420b-b668-24f1ad6798ac")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "a2d6841c-0012-462a-b982-3b8cec70a2b4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0af47cfd-0233-48f9-bb04-e5b1e6a16e71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "a59adfa6-9653-479a-aa34-2311886469b2")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "f135ce25-91c4-4aac-857a-99b9d5068812")
+		(at 114.13525 113.268125)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "MT8"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(uuid "17e25fee-592b-41f8-aeb6-62611ed7de84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "5b6bc8c7-c805-479e-9c02-5ef6ff4cadd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f4a8092-40bc-408a-b4d7-e672d1e73e90")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ceb88e2-6002-43d8-81fd-0a6160fae225")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d43d176-ece8-4e5c-abd4-c78b6ca691a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72c1b677-1968-4d58-8337-572d215e1be1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Farnell" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f09ced6-e150-455a-909c-4787d7bc9af3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08414f66-3748-4de8-a910-921154bb1e69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3af223c-4479-41f6-897d-eeff383ddbf6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/fdfc9809-9131-4570-84b9-95e5ea0f4d00")
+		(sheetname "ルート")
+		(sheetfile "pcb_L.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "9415d7e0-caed-4ac3-b9a1-658ae91e035b")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "ad42bd5c-700f-4ec5-a45c-e288640a9e2f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "520a5097-10f5-4a9a-888a-a133209731bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "803443a3-5ecd-48b2-bf85-433f29e96f8c")
+		)
+	)
+	(gr_line
+		(start 95.08525 139.27125)
+		(end 95.08525 142.03375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "002d0c6a-41d5-4fad-9a9f-3fda93814711")
+	)
+	(gr_line
+		(start 217.199756 159.856389)
+		(end 225.231542 142.416268)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "05a0bf06-764c-458d-a341-09d710fd9939")
+	)
+	(gr_line
+		(start 57.98525 143.03375)
+		(end 94.08525 143.03375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "069452a5-4fe7-44ec-8f87-be52657b4bfb")
+	)
+	(gr_arc
+		(start 208.194625 53.736875)
+		(mid 209.036537 54.085588)
+		(end 209.38525 54.9275)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0708aec2-6c1a-41ea-aac1-bef0e266084e")
+	)
+	(gr_arc
+		(start 133.375875 138.27125)
+		(mid 134.082982 138.564143)
+		(end 134.375875 139.27125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0727f4ea-263d-4b4e-8949-936bc605b7bf")
+	)
+	(gr_arc
+		(start 57.98525 143.03375)
+		(mid 57.278143 142.740857)
+		(end 56.98525 142.03375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "08eec800-d8da-4f94-bf59-367314f282cb")
+	)
+	(gr_arc
+		(start 216.458133 107.315)
+		(mid 217.872361 107.900772)
+		(end 218.458133 109.315)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0b730ec0-2735-43d7-9193-979245aad43f")
+	)
+	(gr_arc
+		(start 56.98525 48.974375)
+		(mid 57.33398 48.13248)
+		(end 58.175875 47.78375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1b1c7581-b2d7-4f1a-abee-16b475c1b6f0")
+	)
+	(gr_arc
+		(start 217.199756 159.856389)
+		(mid 216.583169 160.424868)
+		(end 215.744993 160.396441)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "226d95df-c9e1-47b4-af13-9619e27ac622")
+	)
+	(gr_arc
+		(start 135.368742 144.231457)
+		(mid 134.666251 143.936063)
+		(end 134.375875 143.231483)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2de06ea3-caca-4dcb-a3d7-1d34ac23efcc")
+	)
+	(gr_arc
+		(start 192.7165 47.78375)
+		(mid 191.874563 47.435062)
+		(end 191.525875 46.593125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "41b13216-d557-4029-8ecf-36f22330e7b0")
+	)
+	(gr_line
+		(start 171.28525 43.02125)
+		(end 190.33525 43.02125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4eed04a0-8b6a-4b38-aef1-8b126aecf108")
+	)
+	(gr_line
+		(start 96.275875 43.02125)
+		(end 171.28525 43.02125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "55c74a85-7300-4182-931e-872ff243d7e1")
+	)
+	(gr_arc
+		(start 190.33525 43.02125)
+		(mid 191.177184 43.369941)
+		(end 191.525875 44.211875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5d4ab1b0-fe52-4084-bbd7-1192ac71a9be")
+	)
+	(gr_arc
+		(start 211.38525 107.315)
+		(mid 209.971034 106.729216)
+		(end 209.38525 105.315)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6813f594-83f1-457b-b5ff-5c42250a7867")
+	)
+	(gr_arc
+		(start 95.08525 46.593125)
+		(mid 94.736543 47.435043)
+		(end 93.894625 47.78375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "73ba7168-16a6-41b6-a7bc-1ed8d5face13")
+	)
+	(gr_line
+		(start 159.015866 144.400138)
+		(end 176.485364 145.921606)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "75db53e3-d509-47a4-8e95-304ce48ae8ca")
+	)
+	(gr_line
+		(start 134.375875 139.27125)
+		(end 134.375875 143.231483)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7d6f4a4d-c58e-4942-838e-751e887fe931")
+	)
+	(gr_line
+		(start 58.175875 47.78375)
+		(end 93.894625 47.78375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8014cedc-a70e-4a55-9d3c-862dcde9481b")
+	)
+	(gr_arc
+		(start 95.08525 139.27125)
+		(mid 95.378143 138.564143)
+		(end 96.08525 138.27125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "80da635a-b4b4-41e4-bf09-ef837bd6399b")
+	)
+	(gr_line
+		(start 211.38525 107.315)
+		(end 216.458133 107.315)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "870cd3ce-124d-4836-91fd-92e5651b3238")
+	)
+	(gr_line
+		(start 195.276147 150.851661)
+		(end 215.744993 160.396441)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "97e2db85-7eba-42c7-820e-f3284a018429")
+	)
+	(gr_line
+		(start 218.458133 109.315)
+		(end 218.458133 135.777702)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "98ab40c6-b8ea-4de1-9023-3bbf7cc18523")
+	)
+	(gr_arc
+		(start 202.050859 53.736875)
+		(mid 201.343765 53.44398)
+		(end 201.050859 52.736891)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "99178e3f-47c0-4ea3-a165-cd81e3708ea4")
+	)
+	(gr_line
+		(start 191.5259 44.211875)
+		(end 191.525875 46.593125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9d1fec86-623c-4a3f-8447-db206136649a")
+	)
+	(gr_line
+		(start 192.7165 47.78375)
+		(end 199.86025 47.78375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a6ece423-ba13-43cf-b33d-f261e5293399")
+	)
+	(gr_line
+		(start 95.08525 46.593125)
+		(end 95.08525 44.211875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a8360532-f6ff-4bb2-8a12-a15092aa8a99")
+	)
+	(gr_arc
+		(start 219.612896 137.590318)
+		(mid 218.771364 136.852292)
+		(end 218.458133 135.777702)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b4d0ea46-7f6f-49c2-b966-6f32667a497b")
+	)
+	(gr_arc
+		(start 224.313353 139.782177)
+		(mid 225.307502 140.912721)
+		(end 225.231542 142.416268)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b6319cc2-5b7b-49aa-aa9b-366d03341428")
+	)
+	(gr_arc
+		(start 95.08525 142.03375)
+		(mid 94.792357 142.740857)
+		(end 94.08525 143.03375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bb38f059-f7e4-47d8-8be9-ba68c3dcafc7")
+	)
+	(gr_line
+		(start 56.98525 48.974375)
+		(end 56.98525 142.03375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bfa870b0-4310-4c44-aeee-67609ac7260e")
+	)
+	(gr_line
+		(start 135.368742 144.231457)
+		(end 159.015866 144.400138)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c6e413f6-0ec3-41a6-a718-c510f4a6b87f")
+	)
+	(gr_arc
+		(start 95.08525 44.211875)
+		(mid 95.433922 43.369922)
+		(end 96.275875 43.02125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c788a38e-2b46-49d8-83a0-e0d1fe532259")
+	)
+	(gr_line
+		(start 201.0508 48.974425)
+		(end 201.050859 52.736891)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c7a4fb05-b4a1-4765-938d-a06f18f8d8e9")
+	)
+	(gr_line
+		(start 209.38525 54.9275)
+		(end 209.38525 105.315)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d5702dae-c4cc-4e02-98c8-d028651a64a5")
+	)
+	(gr_line
+		(start 202.050859 53.736875)
+		(end 208.194625 53.736875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d96f53fa-771c-4bb8-846c-13d90d332b3a")
+	)
+	(gr_line
+		(start 219.612896 137.590318)
+		(end 224.313353 139.782177)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ded1cfc5-0246-4bd1-9575-fb48a4a602a8")
+	)
+	(gr_line
+		(start 176.485364 145.921606)
+		(end 195.276147 150.851661)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e84325d1-0714-44db-a580-c036bddb57a2")
+	)
+	(gr_line
+		(start 96.08525 138.27125)
+		(end 133.375875 138.27125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ec9949f7-c2c2-47ef-9252-379200c7debd")
+	)
+	(gr_arc
+		(start 199.86025 47.78375)
+		(mid 200.702158 48.13248)
+		(end 201.0508 48.974425)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f8ba7190-5cc5-4266-8c58-04c107401fd6")
+	)
+)
