@@ -443,11 +443,13 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "neg_footprints"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "pcb_L.kicad_pro",
+    "filename": "top_L.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -485,7 +487,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "C:/Users/nazo/Downloads/pcb_R.dsn",
-      "step": "pcb_R.step",
+      "step": "C:/Users/nazo/Downloads/pcb_R.step",
       "svg": "C:/Users/nazo/Downloads/",
       "vrml": ""
     },
